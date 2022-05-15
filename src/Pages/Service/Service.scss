@@ -1,0 +1,331 @@
+$orange: #c20b09ff;
+$darkerorange: #c20b09ff;
+
+.mainservicecont {
+  padding-top: 170px;
+}
+.services_sect1_cont {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  .service_card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    width: 300px;
+    height: 370px;
+    margin: 20px 5px 0px 5px;
+    overflow: hidden;
+    h3,
+    p {
+      color: #fff;
+      margin: 0px;
+    }
+    p {
+      text-align: left;
+      margin-top: 10px;
+      font-family: "Avenir";
+      font-size: 14px;
+      line-height: 17px;
+    }
+    .cardtext {
+      display: flex;
+      align-items: flex-start;
+      width: 250px;
+      height: max-content;
+      margin: 0px 0px 5px 0px;
+      overflow: hidden;
+      h3 {
+        line-height: 18px;
+        font-family: "Avenir-Bold";
+      }
+      img {
+        margin-right: 15px;
+      }
+    }
+  }
+  .card0 {
+    background-image: linear-gradient(
+        180deg,
+        #00000083 -15.39%,
+        rgba(0, 0, 0, 0.651) 200.56%
+      ),
+      url("../../Assets/images/poa3.png");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: 100%;
+  }
+  .card1 {
+    background-image: linear-gradient(
+        180deg,
+        #00000086 -15.39%,
+        rgba(0, 0, 0, 0.651) 200.56%
+      ),
+      url("../../Assets/images/poa2.png");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .card2 {
+    background-image: linear-gradient(
+        180deg,
+        #000000a1 -15.39%,
+        rgba(0, 0, 0, 0.651) 200.56%
+      ),
+      url("../../Assets/images/construction.jpeg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .card3 {
+    background-image: linear-gradient(
+        180deg,
+        #000000a1 -15.39%,
+        rgba(0, 0, 0, 0.651) 200.56%
+      ),
+      url("../../Assets/images/design.jpeg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .card4 {
+    background-image: linear-gradient(
+        180deg,
+        #000000a1 -15.39%,
+        rgba(0, 0, 0, 0.651) 200.56%
+      ),
+      url("../../Assets/images/poa0.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .card5 {
+    background-image: linear-gradient(
+        180deg,
+        #000000a1 -15.39%,
+        rgba(0, 0, 0, 0.651) 200.56%
+      ),
+      url("../../Assets/images/architecture.jpeg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .card6 {
+    background-image: linear-gradient(
+        180deg,
+        #000000a1 -15.39%,
+        rgba(0, 0, 0, 0.651) 200.56%
+      ),
+      url("../../Assets/images/waterwaysBkg.png");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .card7 {
+    background-image: linear-gradient(
+        180deg,
+        #000000a1 -15.39%,
+        rgba(0, 0, 0, 0.651) 200.56%
+      ),
+      url("../../Assets/images/Mission_bkg.png");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+  .card8 {
+    background-image: linear-gradient(
+        180deg,
+        #000000a1 -15.39%,
+        rgba(0, 0, 0, 0.651) 200.56%
+      ),
+      url("../../Assets/images/environ_impact.jpeg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+  }
+}
+.servicesectcont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 170px;
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+  background-color: #fff;
+  background-image: linear-gradient(
+      180deg,
+      #ffffff -15.39%,
+      rgba(255, 255, 255, 0.87) 200.56%
+    ),
+    url("../../Assets/images/mapbkg.png");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  #servicesect1cont {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 4%;
+    a {
+      color: #fff;
+      font-family: "Avenir";
+    }
+  }
+}
+
+.servicesect1 {
+  display: flex;
+  flex-direction: column;
+  h1 {
+    font-family: "Poppins-Black";
+    font-size: 45px;
+    margin: 0px;
+  }
+  p {
+    font-family: "Poppins";
+    font-size: 14px;
+  }
+}
+.projects_link{
+  display: flex;
+  align-self: center;
+  width: max-content;
+  margin: 50px 0px;
+  border-radius: 40px;
+}
+#project_btn {
+  background-color: $darkerorange;
+  border: 1px solid #ffffff;
+  
+  &:hover {
+    background: #000;
+  }
+}
+
+.projpics {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+
+  .project_image {
+    // position: relative;
+  }
+}
+
+//section two
+.service_sect2_cont {
+  display: flex;
+  justify-content: center;
+  background: $orange;
+  #servicesect2 {
+    padding: 8% 4%;
+  }
+  h1 {
+    font-family: "Poppins-Black";
+    color: #fff;
+    line-height: 40px;
+    font-size: 45px;
+  }
+  span {
+    h1,
+    p {
+      text-align: center;
+    }
+    p {
+      font-family: "Poppins-Light";
+      color: #fff;
+    }
+  }
+  .sendformcont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    form {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      background: #000;
+      width: 500px;
+      max-width: 100%;
+      padding: 4%;
+      h1 {
+        text-align: center;
+      }
+      input {
+        width: 96%;
+        height: 35px;
+        margin: 5px 0px;
+        border: none;
+      }
+      .message {
+        min-height: 200px;
+      }
+      a {
+        display: flex;
+        justify-content: center;
+      }
+      #sendMessage {
+        color: #fff;
+        font-family: "Avenir";
+        font-size: 12px;
+        margin: 0px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .services_sect1_cont {
+    .service_card {
+      h3 {
+        margin-bottom: 20px;
+      }
+      p {
+        height: 0px;
+        transition-property: height;
+        transition-duration: 0.4s;
+
+        // overflow: hidden;
+      }
+      &:hover {
+        p {
+          height: 200px;
+          transition-property: height;
+          transition-duration: 0.8s;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  .service_sect2_cont {
+    span {
+      h1,
+      p {
+        text-align: right;
+      }
+      p {
+      }
+    }
+
+    .sendformcont {
+      display: flex;
+      flex-direction: row !important;
+      justify-content: space-evenly;
+      form {
+        margin-left: 20px;
+      }
+    }
+  }
+}

@@ -1,0 +1,446 @@
+$orange: #c20b09ff;
+$darkerorange: #c20b09ff;
+
+.abtsect2cont,
+.abtsect1cont,
+.abtsect3cont,
+.mission_main_cont {
+  display: flex;
+  justify-content: center;
+}
+
+//section1
+
+.abtsect1cont {
+  padding-top: 170px;
+  background-color: #fff;
+  #abtmaincont {
+    padding: 0px 5%;
+    p {
+      font-family: "Poppins";
+    }
+    .design_cont {
+      display: flex;
+      flex-direction: column;
+      transition: flex-direction 2s;
+      .design_left {
+        h1 {
+          font-size: 45px;
+          font-family: "Poppins-Black";
+          font-weight: bold;
+          margin: 0px;
+          line-height: 50px;
+        }
+        .h1_red {
+          color: $orange;
+          font-family: "Poppins";
+        }
+        h3 {
+          font-family: "Julietta";
+          font-size: 30px;
+          text-align: right;
+        }
+        p {
+          text-align: justify;
+          margin-top: 10px;
+          margin-bottom: 0px;
+        }
+      }
+      .image_cont {
+        display: flex;
+        align-self: center;
+        justify-content: center;
+        position: relative;
+        width: 100%;
+        height: 300px;
+        max-width: 450px;
+        margin-bottom: 50px;
+        // margin-bottom: 50px;
+        > span > img {
+          max-width: 100%; //important for scaling down
+          min-width: 200px;
+        }
+      }
+    }
+  }
+}
+.mission_main_cont {
+  background: linear-gradient(
+      180deg,
+      #000000 -15.39%,
+      rgba(0, 0, 0, 0.185) 200.56%
+    ),
+    url("../../Assets/images/Mission_bkg.png");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  #mission_cont {
+    color: #fff;
+    text-align: center;
+    padding: 40px 5%;
+    > div {
+      margin: 40px 0px;
+    }
+    p {
+      max-width: 400px;
+      margin: 0 auto;
+    }
+    h1 {
+      margin: 0px;
+      font-size: 45px;
+      font-weight: bold;
+      color: #fff;
+    }
+  }
+}
+.values_main_cont {
+  background-color: #fff;
+  display: flex;
+  justify-content: center;
+  #values_cont {
+    color: #fff;
+    text-align: center;
+    padding: 40px 5%;
+    > div {
+      margin: 40px 0px;
+      .core_values{
+        display: flex;
+        flex-flow: row wrap;
+        justify-content: center;
+          
+    
+      }
+    }
+    h1 {
+      margin: 0px;
+      font-size: 45px;
+      font-weight: bold;
+      color: #000;
+    }
+  }
+}
+
+//section2
+.abtsect2cont {
+  background-color: #fff;
+  padding-bottom: 100px;
+  #team_banner_cont {
+    padding: 60px 5% 20px 5%;
+    h1 {
+      text-align: center;
+      font-family: "Avenir-Bold";
+
+      font-size: 45px;
+    }
+    p {
+      margin: 100px 0px 30px 0px;
+      text-align: center;
+    }
+    .team_banner{
+      display: flex;
+      flex-direction: column;
+    }
+    a{
+      display: flex;
+       width: 160px;
+       align-self: center;
+       #join_btn {
+        background-color: $darkerorange;
+        color: #fff;
+        margin: 0 auto;
+        &:hover{
+          background: #000;
+         
+        }
+      }
+     }
+    
+    p,
+    #join_btn {
+      font-family: "Avenir";
+    }
+  }
+
+  ///
+  .team {
+    display: flex;
+    position: relative;
+    width: 100%;
+    height: 370px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    align-items: flex-end;
+
+    &:nth-child(1) {
+      background-image: url("../../Assets/images/Adeyemi.png");
+
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: right;
+    }
+    &:nth-child(5) {
+      //seo services
+      background-image: url("../../Assets/images/Busola.jpg");
+
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: right;
+    } 
+    &:nth-child(3) {
+      //seo services
+      background-image: url("../../Assets/images/Olabode.jpg");
+
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: right;
+    }
+    &:nth-child(7) {
+      //seo services
+      background-image: url("../../Assets/images/Dolapo.png");
+
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: right;
+    }
+    &:nth-child(9) {
+      //seo services
+      background-image: url("../../Assets/images/Adeyinka.png");
+
+      background-repeat: no-repeat;
+      background-size: cover;
+      background-position: right;
+    }
+  }
+
+  .member {
+    width: 100%;
+    height: 0px;
+    z-index: 100;
+    background: #000;
+    color: #fff;
+    opacity: 1;
+    overflow: hidden;
+    transition-property: height;
+    transition-duration: 1s;
+    .member_details {
+      margin-top: 20px;
+    }
+  }
+  h3,
+  h5,
+  h6 {
+    text-align: center;
+    font-family: "Avenir";
+  }
+  h3,
+  h5 {
+    color: #fff;
+    margin: 0px;
+  }
+  h3 {
+    font-weight: bold;
+    font-size: 20px;
+  }
+  h5 {
+    font-weight: lighter;
+  }
+  h6 {
+    margin-top: 10px;
+    color: $darkerorange;
+    cursor: pointer;
+    font-size: 11px;
+  }
+  .member_mobile {
+    background-color: #000;
+    padding: 5%;
+  }
+}
+//modal
+.ant-modal-body {
+  padding: 10px !important;
+}
+
+.member_modal {
+  margin-top: 10px;
+  padding-bottom: 20px;
+  img {
+    width: 100%;
+    height: auto;
+  }
+  div {
+    h3 {
+      font-family: "Poppins";
+      font-size: 30px;
+      font-weight: bold;
+      margin: 20px 0px 5px 0px;
+    }
+    p {
+      font-family: "Avenir";
+      font-weight: bold;
+    }
+   
+    #member_close {
+      margin: 0 auto;
+      border-color: $darkerorange;
+    }
+  }
+}
+
+//antd
+.ant-scrolling-effect {
+  width: 100% !important;
+}
+
+//section 3
+.abtsect3cont {
+  background-color: $darkerorange;
+
+  #trusted_banner_cont {
+    padding: 60px 5% 20px 5%;
+    .trusted_banner {
+      display: flex;
+      // outline: 1px solid rgb(27, 158, 38);
+      align-items: center;
+      justify-content: center;
+
+      h1 {
+        display: flex;
+        font-family: "Poppins";
+        margin: 0px;
+        font-size: 50px;
+        font-weight: bold;
+        line-height: 55px;
+        width: 600px;
+      }
+    }
+    h1,
+    h4,
+    #quote_btn {
+      color: #fff;
+      text-align: center;
+     
+    }
+    h4 {
+      margin: 20px 0px;
+      font-family: "Avenir";
+    }
+    a{
+      display: flex;
+      justify-content: center;
+      width: max-content;
+      align-self: center;
+    }
+    #quote_btn {
+      align-self: center;
+      font-family: "Avenir";
+      font-size: 12px;
+      &:hover{
+        background: #000;
+       
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1001px) {
+  .abtsect1cont {
+    padding-top: 200px;
+  }
+}
+@media only screen and (max-width: 580px) {
+  //antd
+  .ant-modal {
+    max-width: 350px !important;
+  }
+  .abtsect2cont {
+    padding: 0px;
+    .team {
+      display: flex;
+    }
+
+    .member {
+      display: none;
+    }
+  }
+}
+@media only screen and (min-width: 581px) {
+  .abtsect2cont {
+    .team_cont {
+      display: flex;
+      flex-flow: row wrap;
+      justify-content: center;
+    }
+    .team {
+      box-shadow: rgba(110, 13, 13, 0.12) 0px 1px 3px,
+        rgba(110, 11, 11, 0.24) 0px 1px 2px;
+      margin: 10px;
+      margin-bottom: 30px;
+      width: 300px;
+      .black_mask {
+        position: absolute;
+        bottom: 0;
+        height: 100%;
+        width: 100%;
+       
+      }
+    }
+    .team:hover {
+      box-shadow: rgba(19, 61, 100, 0.15) 0px 5px 15px;
+      .black_mask{
+        background-color: rgba(0, 0, 0, 0.36);
+      }
+      .member {
+        height: 126px;
+        transition-property: height;
+        transition-duration: 0.4s;
+      }
+    }
+
+    .member_mobile {
+      display: none;
+    }
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  //section1
+  .abtsect1cont {
+    #abtmaincont {
+      .design_cont {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        .design_left > p {
+          max-width: 500px;
+        }
+        .image_cont {
+          margin-left: 50px;
+          margin-bottom: 0px;
+        }
+      }
+    }
+  }
+
+  .ant-modal {
+    width: 80% !important;
+    max-width: 1250px !important;
+  }
+  .member_modal {
+    display: flex;
+    align-items: center;
+    margin-top: 30px;
+    div {
+      padding: 0px 10px;
+      #member_close {
+        display: none;
+      }
+    }
+  }
+}
+@media only screen and (max-width: 1000px) {
+  .ant-modal-close {
+    display: none;
+  }
+}

@@ -1,0 +1,146 @@
+$orange: #c20b09ff;
+$darkerorange: #c20b09ff;
+
+.navContainerDark {
+  height: 110px;
+  //set to  height: 125px; for larger screens
+  width: 100%;
+  z-index: 100;
+  background-color: #000;
+}
+.navContainerDark {
+  display: flex;
+  position: absolute;
+  top: 0;
+  justify-content: center;
+  #navitems{
+    width: 100%;
+    display: flex;
+    position: relative;
+  }
+  .nav_item_cont{
+    width: max-content;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: 0px 70px;
+    list-style-type: none;
+    .navitem{
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      align-items: center;
+      width: 100px;
+      height: 100%;
+      color:#fff;
+      font-size: 14px;
+      margin-left: 40px;
+      font-family: 'Avenir';
+      cursor: pointer;
+      //font-size:27px
+      &:hover{
+        .line{
+          width: 10px;
+        }
+      }
+
+    }
+    
+    .navitemActive{
+      color: $darkerorange;
+    }
+    .active{
+      width: 100px;
+      height: 4px;
+      background-color: $darkerorange;
+      transition: width 0.7s;
+
+    }
+  }
+}
+/*rounded button*/
+#menuBtn {
+  display: flex;
+  justify-content: center;
+  opacity: 1;
+  align-items: center;
+  text-align: center;
+  position: fixed;
+  top: 40px;
+  right: 7%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  z-index: 2000;
+}
+#logoimg{
+  margin-top: 5px;
+}
+
+.ant-drawer-content-wrapper {
+  min-width: 250px !important;
+  width: 100% !important;
+}
+.ant-drawer-close {
+  display: none;
+}
+.ant-drawer-header {
+  width: 0px !important;
+}
+.ant-drawer-content {
+}
+.ant-drawer-body {
+  padding: 0px;
+}
+
+/*drawercontent*/
+.drawerContent {
+  width: 100%;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  .menuItem {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    width: max-content;
+    height: 40px;
+    margin: 20px 0px;
+    a{
+      color:#000;
+      font-family: 'Avenir';
+
+    }
+    .activeD{
+      width: 100px;
+      height: 4px;
+      margin-top: 20px;
+      background-color: $darkerorange;
+      transition: width 0.7s;
+
+    }
+  }
+}
+
+@media only screen and (min-width: 1001px) {
+  #menuBtn,.ant-drawer-content-wrapper {
+    display: none;
+  }
+  #logoimg{
+    height:70px;
+    margin-top: 0px !important;
+  }
+  
+}
+@media only screen and (max-width: 1000px) {
+  .navContainerDark,
+  .navContainerEx {
+    display: none;
+  }
+}

@@ -1,0 +1,133 @@
+$orange: #c20b09ff;
+$darkerorange: #c20b09ff;
+
+.columnCont {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  max-width: 1500px;
+}
+
+.rowCont {
+  width: 100%;
+  display: flex;
+  max-width: 1500px;
+}
+.btn_one,
+.btn_two {
+  display: flex;
+  position: relative;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  .arrow {
+    position: absolute;
+    transform: rotate(90deg);
+    right: 8px;
+    margin-left: 3px;
+    // transition-property: right;
+    // transition-duration: 0.5s;
+    -webkit-transition: right 0.15s ease-in-out;
+    transition: right 0.15s ease-in-out;
+  }
+  &:hover {
+    .arrow {
+      right: 4px;
+      -webkit-transition: right 0.15s ease-in-out;
+      transition: right 0.15s ease-in-out;
+    }
+  }
+}
+.btn_one {
+  width: 124px;
+  height: 40px;
+  border: 1px solid #ffffff;
+  border-radius: 40px;
+}
+.btn_two {
+  width: 162px;
+  height: 40px;
+  border-radius: 40px;
+}
+
+.check {
+  display: flex;
+  justify-content: center;
+  width: 30px;
+  height: 30px;
+  border: 2px solid #ffeaea;
+  border-radius: 50%;
+}
+
+//Text and Image Container
+.text_and_image_cont {
+  display: flex;
+  margin-bottom: 50px;
+  .text_sect {
+    h1,
+    p {
+      text-align: center;
+    }
+  }
+  .image_sect {
+    display: flex;
+    align-self: center;
+    justify-content: center;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    max-width: 450px;
+    margin-bottom: 50px;
+    // margin-bottom: 50px;
+    > span > img {
+      max-width: 100%; //important for scaling down
+      min-width: 200px;
+    }
+  }
+}
+.values_card {
+  border-radius: 8px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  background: #fff;
+  width: 220px;
+  height: 260px;
+  margin: 30px;
+  padding-top: 30px;
+  &:hover{
+    box-shadow: rgba(134, 40, 40, 0.781) 0px 1px 4px;
+  }
+  p {
+    color: #000;
+    padding: 0px 20px;
+  }
+  img{
+    margin: 10px 0px;
+  }
+}
+
+@media only screen and (max-width: 1000px) {
+  .image_sect {
+    display: none !important;
+  }
+}
+@media only screen and (min-width: 1000px) {
+  .text_and_image_cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 40px 0px;
+    .text_sect {
+      h1 {
+        text-align: left !important;
+      }
+      p {
+        text-align: justify !important;
+        max-width: 500px;
+      }
+    }
+    .image_sect {
+      margin-left: 50px;
+      margin-bottom: 0px;
+    }
+  }
+}

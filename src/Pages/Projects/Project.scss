@@ -1,0 +1,137 @@
+$orange: #c20b09ff;
+$darkerorange: #c20b09ff;
+
+.projsectcont {
+  display: flex;
+  justify-content: center;
+  padding-top: 170px;
+  background-color: #fff;
+  background-image: linear-gradient(
+      180deg,
+      #ffffff -15.39%,
+      rgba(255, 255, 255, 0.87) 200.56%
+    ),
+    url("../../Assets/images/mapbkg.png");
+
+  background-repeat: no-repeat;
+  background-size: cover;
+  #projmaincont {
+    padding: 0px 4%;
+
+    
+  }
+  .text_sect{
+
+    h1 {
+      font-size: 45px;
+      font-family: "Poppins-Black";
+      font-weight: bold;
+      margin: 0px;
+      line-height: 50px;
+    }
+    .h1_red {
+      color: $orange;
+      font-family: "Poppins";
+    }
+    h3 {
+      font-family: "Julietta";
+      font-size: 30px;
+      text-align: right;
+    }
+    p {
+      margin-top: 10px;
+      margin-bottom: 0px;
+      font-family: "Poppins";
+    }
+  }
+}
+
+.projpics {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: center;
+
+  .project_image {
+    // position: relative;
+  }
+  .antdimagecont {
+    height: max-content;
+    overflow: hidden;
+    // outline: 0.2px solid $darkerorange;
+    position: relative;
+    margin: 10px 10px;
+    #check_btn {
+      position: absolute;
+      top: 10px;
+      left: 20px;
+      border: 2px solid #ffeaea;
+    }
+    #commercial_btn {
+      position: absolute;
+      top: 10px;
+      right: 20px;
+      width: 120px;
+      height: 30px;
+      border-radius: 30px;
+      font-size: 12px;
+      border: 2px solid #ffeaea;
+      background-color: $darkerorange;
+      color: #fff;
+    }
+    .transp_mask {
+      display: flex;
+      flex-direction: column;
+      justify-content: flex-end;
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0px;
+      z-index: 1;
+      opacity: 0;
+      transition: opacity 0.3s;
+      padding: 5px 20px;
+      cursor: pointer;
+      &:hover {
+        background-color: rgba(0, 0, 0, 0.36);
+        opacity: 1;
+      }
+      h1 {
+        font-size: 30px;
+      }
+      h5 {
+        font-size: 15px;
+      }
+      h1,
+      h5 {
+        color: #fff;
+        margin: 0px;
+      }
+    }
+  }
+}
+
+@media only screen and (min-width: 1001px) {
+  .projsectcont {
+    padding-top: 200px;
+  }
+}
+@media only screen and (min-width: 500px) {
+  .projpics {
+    .antdimagecont {
+      height: 300px;
+    }
+  }
+}
+@media only screen and (max-width: 999px) {
+  .projpics {
+    #commercial_btn {
+      width: 120px;
+      height: 30px;
+      border-radius: 30px;
+      font-size: 12px;
+    }
+    .project_image {
+      width: 600px !important;
+    }
+  }
+}

@@ -51,7 +51,7 @@ jobs:
           name: build
           path: build
           
-    - name: Deploy poa-adit to firebase
+    - name: Deploy poa-adit-web to firebase
       uses: w9jds/firebase-action@master
       with:
           args: deploy --only hosting

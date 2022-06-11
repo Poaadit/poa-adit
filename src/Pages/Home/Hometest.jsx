@@ -60,7 +60,7 @@ const Hometest = () => {
               <Typewriter
                 onInit={(typewriter) => {
                   typewriter
-                    .typeString("POA ADIT.")
+                    .typeString("POA ADIT @ 16")
 
                     .callFunction(() => {
                       console.log("String typed out!");
@@ -81,13 +81,13 @@ const Hometest = () => {
         </div>
         <div>
           <div className="carousel_div1" style={contentStyle}>
-            <h1>Innovation</h1>
+            <h1>16 years of Innovation</h1>
             <h4>Innovative Solutions for your Building Needs</h4>
           </div>
         </div>
         <div>
           <div className="carousel_div2" style={contentStyle}>
-            <h1>Excellence</h1>
+            <h1>16 years of Excellence</h1>
             <h4>The Ultimate Construction Experience</h4>
           </div>
         </div>

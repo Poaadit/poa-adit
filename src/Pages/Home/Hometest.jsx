@@ -56,7 +56,7 @@ const Hometest = () => {
       <Carousel autoplay className="carousel" autoplaySpeed={5000}>
         <div>
           <div className="carousel_div0" style={contentStyle}>
-            <h2 className="company_name">
+            <h1 className="company_name">
               <Typewriter
                 onInit={(typewriter) => {
                   typewriter
@@ -75,19 +75,19 @@ const Hometest = () => {
                   loop: false,
                 }}
               />
-            </h2>
+            </h1>
             <h4 className="company_name">Quality Workmanship with attention to detail</h4>
           </div>
         </div>
         <div>
           <div className="carousel_div1" style={contentStyle}>
-            <h2>16 years of Innovation</h2>
+            <h1>16 years of Innovation</h1>
             <h4>Innovative Solutions for your Building Needs</h4>
           </div>
         </div>
         <div>
           <div className="carousel_div2" style={contentStyle}>
-            <h2>16 years of Excellence</h2>
+            <h1>16 years of Excellence</h1>
             <h4>The Ultimate Construction Experience</h4>
           </div>
         </div>

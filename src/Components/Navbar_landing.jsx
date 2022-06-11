@@ -74,12 +74,12 @@ const NavbarLanding = () => {
           display: "flex",
           alignItems: "flex-end",
           position: "absolute",
-          top: "45px",
+          top: "40px",
           left: "7%",
           zIndex: 2000,
         }}
       >
-        <img src={Logo0} alt="logo" height="50px" width="auto" id="logoimg" />
+        <img src={Logo0} alt="logo" height="200px" width="auto" id="logoimg" />
       </Link>
 
       <div

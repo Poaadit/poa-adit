@@ -5,7 +5,7 @@ import { Cross as Hamburger } from "hamburger-react";
 import { RowContainer } from "./ResponsiveConts";
 import { Link, NavLink } from "react-router-dom";
 
-import Logo0 from "../Assets/images/Logo0.png";
+import Logo0 from "../Assets/images/Logo2.png";
 
 const NavbarLanding = () => {
   const [visible, setVisible] = useState(false);

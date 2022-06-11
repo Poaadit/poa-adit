@@ -54,35 +54,29 @@ const Hometest = () => {
     <div className="homecont">
       <NavbarLanding />
       <Carousel autoplay className="carousel" autoplaySpeed={5000}>
-       // <div>
-          //<div className="carousel_div0" style={contentStyle}>
-            //<h1 className="company_name">
-              //<Typewriter
-                //onInit={(typewriter) => {
-                  //typewriter
-                   // .typeString("POA ADIT @16")
-
-                    //.callFunction(() => {
-                     // console.log("String typed out!");
-                   // })
-                    //.pauseFor(2500)
-                   // .deleteChars(1)
-
-                   // .start();
-              //  }}
-                //options={{
-                 // cursor: "",
-                  //loop: false,
-                //}}
-              ///>
-           // </h1>
-           // <h4 className="company_name">Quality Workmanship with attention to detail</h4>
-          //</div>
-        //</div>
         <div>
           <div className="carousel_div0" style={contentStyle}>
-            <h1>POA ADIT @ 16</h1>
-            <h4>Quality Workmanship with attention to detail</h4>
+            <h1 className="company_name">
+              <Typewriter
+                onInit={(typewriter) => {
+                  typewriter
+                    .typeString("POA ADIT at 16 ")
+
+                    .callFunction(() => {
+                      console.log("String typed out!");
+                    })
+                    .pauseFor(2500)
+                    .deleteChars(1)
+
+                    .start();
+                }}
+                options={{
+                  cursor: "",
+                  loop: false,
+                }}
+              />
+           </h1>
+           <h4 className="company_name">Quality Workmanship with attention to detail</h4>
           </div>
         </div>
         <div>

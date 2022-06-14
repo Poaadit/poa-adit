@@ -77,7 +77,7 @@ const NavbarLanding = () => {
           zIndex: 2000,
         }}
       >
-        <img src={Logo0} alt="logo" height="100px" width="auto" id="logoimg" />
+        <img src={Logo0} alt="logo" height="150px" width="auto" id="logoimg" />
       </Link>
 
       <div className="navContainerDark">

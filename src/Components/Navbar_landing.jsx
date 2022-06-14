@@ -74,7 +74,7 @@ const NavbarLanding = () => {
           display: "flex",
           alignItems: "flex-end",
           position: "absolute",
-          top: "30px",
+          top: "50px",
           left: "7%",
           zIndex: 2000,
         }}

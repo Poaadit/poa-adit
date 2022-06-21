@@ -42,7 +42,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                14b Muri Okunola Street, Victoria Island, Lagos.
+                Plot 1196, Bishop Oluwole street Victoria island Lagos.
               </a>
             </li>
             <li>

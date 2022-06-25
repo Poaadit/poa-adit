@@ -22,7 +22,7 @@ const Contact = () => {
             <div className="contactcard">
               <h1>Get In Touch</h1>
               <span> Address</span>
-              <h4>Plot 1196, Bishop Oluwole street Victoria island Lagos.</h4>
+              <h4>3rd Floor, Plot 1196, Bishop Oluwole street Victoria island Lagos.</h4>
               <span> Phone Number</span>
               <h4>+234 812 7139 390</h4>
               <span> Email</span>

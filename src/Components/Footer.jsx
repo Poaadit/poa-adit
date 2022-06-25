@@ -42,7 +42,7 @@ const Footer = () => {
                 target="_blank"
                 rel="noopener noreferrer"
               >
-                Plot 1196, Bishop Oluwole street Victoria island Lagos.
+                3rd Floor, Plot 1196, Bishop Oluwole street Victoria island Lagos.
               </a>
             </li>
             <li>
@@ -57,7 +57,7 @@ const Footer = () => {
               ))}
             </div>
           </div>
-          <li className="copyright">©POA Adit 2022</li>
+          <li className="copyright">©POA ADIT 2022</li>
         </ColumnContainer>
       </div>
     </div>

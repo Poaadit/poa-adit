@@ -54,7 +54,7 @@ const Hometest = () => {
     <div className="homecont">
       <NavbarLanding />
       <Carousel autoplay className="carousel" autoplaySpeed={5000}>
-        <div>
+        /*<div>
           <div className="carousel_div0" style={contentStyle}>
             <h1 className="company_name">
               <Typewriter
@@ -78,7 +78,7 @@ const Hometest = () => {
            </h1>
            <h4 className="company_name">Quality Workmanship with attention to detail</h4>
           </div>
-        </div>
+        </div>*/
         <div>
           <div className="carousel_div1" style={contentStyle}>
             <h1>Innovation</h1>

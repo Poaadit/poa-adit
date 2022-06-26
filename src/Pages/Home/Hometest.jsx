@@ -78,13 +78,13 @@ const Hometest = () => {
            </h1>
            <h4 className="company_name">Quality Workmanship with attention to detail</h4>
           </div>
-        </div>*/}
+        </div>
         <div>
           <div className="carousel_div1" style={contentStyle}>
             <h1>Innovation</h1>
             <h4>Innovative Solutions for your Building Needs</h4>
           </div>
-        </div>
+        </div>*/}
         <div>
           <div className="carousel_div2" style={contentStyle}>
             {/*<h1>Excellence</h1>

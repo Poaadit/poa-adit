@@ -87,8 +87,8 @@ const Hometest = () => {
         </div>
         <div>
           <div className="carousel_div2" style={contentStyle}>
-            {/*<h1>Excellence</h1>
-            <h4>The Ultimate Construction Experience</h4>*/}
+            <h1>Excellence</h1>
+            <h4>The Ultimate Construction Experience</h4>
           </div>
         </div>
       </Carousel>

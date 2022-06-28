@@ -5,7 +5,7 @@ import NavbarLanding from "../../Components/Navbar_landing";
 import "./Home.scss";
 import Aos from "aos";
 import { ColumnContainer } from "../../Components/ResponsiveConts";
-//import Typewriter from "typewriter-effect";
+import Typewriter from "typewriter-effect";
 
 import Linkedin from "../../Assets/icons/linkedin0.svg";
 import Instagram from "../../Assets/icons/instagram.svg";
@@ -54,7 +54,7 @@ const Hometest = () => {
     <div className="homecont">
       <NavbarLanding />
       <Carousel autoplay className="carousel" autoplaySpeed={5000}>
-    {/*<div>
+    <div>
           <div className="carousel_div0" style={contentStyle}>
             <h1 className="company_name">
               <Typewriter
@@ -84,7 +84,7 @@ const Hometest = () => {
             <h1>Innovation</h1>
             <h4>Innovative Solutions for your Building Needs</h4>
           </div>
-        </div>*/}
+        </div>
         <div>
           <div className="carousel_div2" style={contentStyle}>
             {/*<h1>Excellence</h1>

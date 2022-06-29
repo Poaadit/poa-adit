@@ -60,15 +60,15 @@ const Hometest = () => {
               <Typewriter
                 onInit={(typewriter) => {
                   typewriter
-                    .typeString("POA ADIT.")
+                    .typeString("POA ADIT @ 16")
 
-                    .callFunction(() => {
+                    {/*.callFunction(() => {
                      console.log("String typed out!");
-                     })
+                     }) */}
                     .pauseFor(2500)
-                    .deleteall()
+                    .deleteAll()
                      
-                    .typestring("cheers to 16 years of Excellence")
+                    .typestring("Cheers to 16 years of Excellence")
 
 
                     .start();
@@ -79,7 +79,7 @@ const Hometest = () => {
                 }}
               />
            </h1>
-           <h4 className="company_name"> Quality Workmanship with attention to detail</h4>
+           //<h4 className="company_name"> Quality Workmanship with attention to detail</h4>
           </div>
         </div>
         <div>

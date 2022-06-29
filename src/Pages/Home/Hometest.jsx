@@ -67,7 +67,6 @@ const Hometest = () => {
                      }) 
                     .pauseFor(3000)
                     .deleteAll()
-                     
                     .typeString("Celebrating 16 years of Excellence")
                     .pauseFor(2000)
                     .deleteChars(10)

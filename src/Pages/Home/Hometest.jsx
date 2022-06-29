@@ -65,11 +65,28 @@ const Hometest = () => {
                     .callFunction(() => {
                      console.log("String typed out!");
                      }) 
-                    .pauseFor(2500)
+                    .pauseFor(3000)
                     .deleteAll()
                      
-                    .typeString("Cheers to 16 years of Excellence")
-                    .pauseFor(2500)
+                    .typeString("Celebrating 16 years of <strong style= "color: red;">Excellence</strong>")
+                    .pauseFor(2000)
+                    .deleteChars(10)
+                    .typeString("<strong style= "color: red;">Innovation</strong>")
+                    .pauseFor(2000)
+                    .deleteChars()
+                    .typeString("<strong style= "color: red;">Integrity</strong>")
+                    .pauseFor(2000)
+                    .deleteChar(9)
+                    .typeString("<strong style= "color: red;">Efficiency</strong>")
+                    .pauseFor(2000)
+                    .deleteChar(10)
+                    .typeString("<strong style= "color: red;">Precision</strong>")
+                    .pauseFor(2000)
+                    .deleteChar(9)
+                    .typeString("<strong style= "color: red;">Empathy</strong>")
+                    .pauseFor(2000)
+                    .deleteChar(7)
+
 
                     .start();
                 }}

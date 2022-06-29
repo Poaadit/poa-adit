@@ -74,8 +74,8 @@ const Hometest = () => {
                     .start();
                 }}
                 options={{
-                  cursor: "";
-                  loop: true;
+                  cursor: "",
+                  loop: true,
                 }}
               />
            </h1>

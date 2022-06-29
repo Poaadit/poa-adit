@@ -68,7 +68,7 @@ const Hometest = () => {
                     .pauseFor(3000)
                     .deleteAll()
                      
-                    .typeString("Celebrating 16 years of ,<strong style= "color: red;">Excellence</strong>")
+                    .typeString("Celebrating 16 years of ","<strong style= "color: red;">Excellence</strong>")
                     .pauseFor(2000)
                     .deleteChars(10)
                     .typeString("<strong style= "color: red;">Innovation</strong>")

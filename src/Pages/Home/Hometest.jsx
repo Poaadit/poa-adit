@@ -62,9 +62,9 @@ const Hometest = () => {
                   typewriter
                     .typeString("POA ADIT")
 
-                   // .callFunction(() => {
-                    //  console.log("String typed out!");
-                   // })
+                    .callFunction(() => {
+                     console.log("String typed out!");
+                     })
                     .pauseFor(2500)
                     .deleteChars(0)
 
@@ -76,7 +76,7 @@ const Hometest = () => {
                 }}
               />
            </h1>
-           <h4>Quality Workmanship with attention to detail</h4>
+           <h4 className="company_name"> Quality Workmanship with attention to detail</h4>
           </div>
         </div>
         <div>

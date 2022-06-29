@@ -79,7 +79,7 @@ const Hometest = () => {
                 }}
               />
            </h1>
-           //<h4 className="company_name"> Quality Workmanship with attention to detail</h4>
+           {/*<h4 className="company_name"> Quality Workmanship with attention to detail</h4>*/}
           </div>
         </div>
         <div>

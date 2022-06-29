@@ -62,14 +62,14 @@ const Hometest = () => {
                   typewriter
                     .typeString("POA ADIT @ 16")
 
-                    {/*.callFunction(() => {
+                    .callFunction(() => {
                      console.log("String typed out!");
-                     }) */}
+                     }) 
                     .pauseFor(2500)
                     .deleteAll()
                      
                     .typestring("Cheers to 16 years of Excellence")
-
+                    .pauseFor(2500)
 
                     .start();
                 }}

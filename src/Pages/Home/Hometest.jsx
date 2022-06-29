@@ -66,7 +66,7 @@ const Hometest = () => {
                      console.log("String typed out!");
                      })
                     .pauseFor(2500)
-                    .deleteChars(all)
+                    .deleteall()
                      
                     .typestring("cheers to 16 years of Excellence")
 
@@ -75,7 +75,7 @@ const Hometest = () => {
                 }}
                 options={{
                   cursor:"|";
-                  loop: false,
+                  loop: true;
                 }}
               />
            </h1>

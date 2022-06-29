@@ -68,26 +68,24 @@ const Hometest = () => {
                     .pauseFor(3000)
                     .deleteAll()
                      
-                    .typeString("Celebrating 16 years of ","<strong style= "color: red;">Excellence</strong>")
+                    .typeString("Celebrating 16 years of Excellence")
                     .pauseFor(2000)
                     .deleteChars(10)
-                    .typeString("<strong style= "color: red;">Innovation</strong>")
+                    .typeString("Innovation")
                     .pauseFor(2000)
                     .deleteChars(10)
-                    .typeString("<strong style= "color: red;">Integrity</strong>")
+                    .typeString("Integrity")
                     .pauseFor(2000)
                     .deleteChars(9)
-                    .typeString("<strong style= "color: red;">Efficiency</strong>")
+                    .typeString("Efficiency")
                     .pauseFor(2000)
                     .deleteChars(10)
-                    .typeString("<strong style= "color: red;">Precision</strong>")
+                    .typeString("Precision")
                     .pauseFor(2000)
                     .deleteChars(9)
-                    .typeString("<strong style= "color: red;">Empathy</strong>")
+                    .typeString("Empathy")
                     .pauseFor(2000)
                     .deleteChars(7)
-
-
                     .start();
                 }}
                 options={{

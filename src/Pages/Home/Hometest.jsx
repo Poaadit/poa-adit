@@ -60,13 +60,13 @@ const Hometest = () => {
               <Typewriter
                 onInit={(typewriter) => {
                   typewriter
-                    .typeString("POA ADIT")
+                    .typeString("POA ADIT.")
 
                     .callFunction(() => {
                      console.log("String typed out!");
                      })
                     .pauseFor(2500)
-                    .deleteChars(0)
+                    .deleteChars(1)
 
                     .start();
                 }}

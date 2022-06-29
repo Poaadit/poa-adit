@@ -85,7 +85,6 @@ const Hometest = () => {
                     .deleteChars(9)
                     .typeString("Empathy")
                     .pauseFor(2000)
-                    .deleteChars(7)
                     .start();
                 }}
                 options={{

@@ -5,7 +5,7 @@ import NavbarLanding from "../../Components/Navbar_landing";
 import "./Home.scss";
 import Aos from "aos";
 import { ColumnContainer } from "../../Components/ResponsiveConts";
-import Typewriter from "typewriter-effect";
+//import Typewriter from "typewriter-effect";
 
 import Linkedin from "../../Assets/icons/linkedin0.svg";
 import Instagram from "../../Assets/icons/instagram.svg";

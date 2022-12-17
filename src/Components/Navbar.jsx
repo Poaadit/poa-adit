@@ -5,7 +5,7 @@ import { Cross as Hamburger } from "hamburger-react";
 import { RowContainer } from "./ResponsiveConts";
 import { Link, NavLink } from "react-router-dom";
 
-import Logo0 from "../Assets/images/Logo1.png";
+import Logo0 from "../Assets/images/Logo0.png";
 const NavbarLanding = () => {
   const [visible, setVisible] = useState(false);
 
@@ -77,7 +77,7 @@ const NavbarLanding = () => {
           zIndex: 2000,
         }}
       >
-        <img src={Logo0} alt="logo" height="150px" width="auto" id="logoimg" />
+        <img src={Logo0} alt="logo" height="100px" width="auto" id="logoimg" />
       </Link>
 
       <div className="navContainerDark">

@@ -1,6 +1,6 @@
-/** {
+{
   outline: 0.5px solid rgba(245, 232, 232, 0.233);
-}*/
+}
 $orange: #c20b09ff;
 $darkerorange: #c20b09ff;
 
@@ -34,7 +34,7 @@ $darkerorange: #c20b09ff;
       font-family: "Poppins-Bold";
       font-size: 30px;
       font-weight: bold;
-      // transition: font-size,height 0.7s;
+      transition: font-size,height 0.7s;
       transition-property: font-size, height;
       transition-duration: 0.7s;
     }
@@ -51,11 +51,11 @@ $darkerorange: #c20b09ff;
     }
   }
   .carousel_div0 {
-    background-image:/* linear-gradient(
+    background-image:linear-gradient(
         180deg,
         #fffdfd8e -15.39%,
         rgba(221, 214, 214, 0.637) 200.56%
-      ),*/ url("../../Assets/images/poaadit@16.gif");
+      ), url("../../Assets/images/homepage1.jpg");
 
     background-repeat: no-repeat;
     background-position: center;
@@ -103,7 +103,7 @@ $darkerorange: #c20b09ff;
     align-items: flex-end;
   }
 
-  //side socials
+ //side socials
   .side_socials {
     display: flex;
     flex-direction: column;
@@ -605,12 +605,12 @@ $darkerorange: #c20b09ff;
     }
   }
 .carousel_div2 {
-    background-image: /*linear-gradient(
+    background-image: linear-gradient(
         180deg,
         #fffdfd8e -15.39%,
         rgba(221, 214, 214, 0.637) 200.56%
-      ),*/
-      url("../../Assets/images/poaadit@16.gif");
+      ),
+      url("../../Assets/images/homepage1.jpg");
     background-size: cover;
     max-width: 200px;
     background-repeat: no-repeat;
@@ -771,7 +771,7 @@ $darkerorange: #c20b09ff;
         height: 400px;
         width: 100%;
         top: 0;
-        //center
+        center
         left: 0;
         right: 0;
         margin-left: auto;
@@ -785,6 +785,3 @@ $darkerorange: #c20b09ff;
     }
   }
 }
-/*
-
-          */

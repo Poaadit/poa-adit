@@ -56,46 +56,11 @@ const Hometest = () => {
       <Carousel autoplay className="carousel" autoplaySpeed={5000}>
     <div>
           <div className="carousel_div0" style={contentStyle}>
-            <h1 className="company_name">
-              <Typewriter
-                onInit={(typewriter) => {
-                  typewriter
-                    .typeString("POA ADIT @ 16")
-
-                    .callFunction(() => {
-                     console.log("String typed out!");
-                     }) 
-                    .pauseFor(3000)
-                    .deleteAll()
-                    .typeString("Celebrating 16 years of Excellence")
-                    .pauseFor(2000)
-                    .deleteChars(10)
-                    .typeString("Innovation")
-                    .pauseFor(2000)
-                    .deleteChars(10)
-                    .typeString("Integrity")
-                    .pauseFor(2000)
-                    .deleteChars(9)
-                    .typeString("Efficiency")
-                    .pauseFor(2000)
-                    .deleteChars(10)
-                    .typeString("Precision")
-                    .pauseFor(2000)
-                    .deleteChars(9)
-                    .typeString("Empathy")
-                    .pauseFor(2000)
-                    .start();
-                }}
-                options={{
-                  cursor: "",
-                  loop: true,
-                }}
-              />
-           </h1>
-           {/*<h4 className="company_name"> Quality Workmanship with attention to detail</h4>*/}
+            <h1>Effeciency</h1>
+           <h4>Quality Workmanship with attention to detail</h4>
           </div>
         </div>
-        {/*<div>
+        <div>
           <div className="carousel_div1" style={contentStyle}>
             <h1>Innovation</h1>
             <h4>Innovative Solutions for your Building Needs</h4>
@@ -106,7 +71,7 @@ const Hometest = () => {
             <h1>Excellence</h1>
             <h4>The Ultimate Construction Experience</h4>
           </div>
-        </div>*/}
+        </div>
       </Carousel>
 
       <div className="homemain">

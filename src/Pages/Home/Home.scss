@@ -26,7 +26,7 @@ $darkerorange: #c20b09ff;
       align-items: center;
       justify-content: center;
       margin: 0px;
-      color: #000;
+      color: rgb(255, 255, 255);
     }
     h1 {
       height: 30px;
@@ -53,9 +53,9 @@ $darkerorange: #c20b09ff;
   .carousel_div0 {
     background-image:linear-gradient(
         180deg,
-        #fffdfd8e -15.39%,
-        rgba(221, 214, 214, 0.637) 200.56%
-      ), url("../../Assets/images/homepage1.jpg");
+        #fffdfd00 -15.39%,
+        rgba(221, 214, 214, 0) 200.56%
+      ), url("../../Assets/images/home1.png");
 
     background-repeat: no-repeat;
     background-position: center;
@@ -64,10 +64,10 @@ $darkerorange: #c20b09ff;
   .carousel_div1 {
     background-image: linear-gradient(
         180deg,
-        #fffdfd8e -15.39%,
-        rgba(221, 214, 214, 0.637) 200.56%
+        #fffdfd00 -15.39%,
+        rgba(221, 214, 214, 0) 200.56%
       ),
-      url("../../Assets/images/crane.png");
+      url("../../Assets/images/home2.png");
     background-size: cover;
 
     background-repeat: no-repeat;
@@ -76,10 +76,10 @@ $darkerorange: #c20b09ff;
   .carousel_div2 {
     background-image: linear-gradient(
         180deg,
-        #fffdfd8e -15.39%,
-        rgba(221, 214, 214, 0.637) 200.56%
+        #fffdfd00 -15.39%,
+        rgba(221, 214, 214, 0) 200.56%
       ),
-      url("../../Assets/images/worker0.png");
+      url("../../Assets/images/home3.png");
     background-size: cover;
 
     background-repeat: no-repeat;
@@ -424,7 +424,7 @@ $darkerorange: #c20b09ff;
       #00000094 -15.39%,
       rgba(0, 0, 0, 0.185) 200.56%
     ),
-    url("../../Assets/images/const-horizon.png") 0% 0% no-repeat padding-box;
+    url("../../Assets/images/sect.png") 0% 0% no-repeat padding-box;
 
   background-position: center;
   background-size: cover;

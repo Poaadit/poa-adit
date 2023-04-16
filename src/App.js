@@ -7,7 +7,6 @@ const Services= lazy(()=>import("./Pages/Service/Service"))
 const About = lazy(() => import("./Pages/About/About"));
 const Contact= lazy(()=>import("./Pages/Contact/Contact"))
 const Projects = lazy(() => import("./Pages/Projects/Project"));
-const Blog = lazy(() => import("./Pages/Blog/Blog"));
 
 function App() {
   return (
@@ -18,7 +17,6 @@ function App() {
           <Route path="/our-services" component={Services}/>
           <Route path="/about-us" component={About}/>
           <Route path="/projects" component={Projects}/>
-          <Route path="/blog" component={Blog}/>
           <Route path="/contact-us" component={Contact}/>
         </Switch>
       </Suspense>

@@ -3,7 +3,7 @@ import "./Blog.scss";
 
 function BlogDetails({ blogData, setBlogSwitch }) {
     console.log(blogData, "bj");
-    const { id, details, details2, image } = blogData;
+    const { details, details2, image } = blogData;
     return (
         <div className='main2' >
             <img src={image} alt="" />

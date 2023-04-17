@@ -41,6 +41,7 @@ const BlogSect1 = () => {
                                 <div className="blogheading">
                                   <h4 className="blogp">{items.details}</h4>
                                 </div>
+                                
 
                                 <button className="blogbtn" onClick={() => blogHandler(items)}>read more</button>
                               </div>

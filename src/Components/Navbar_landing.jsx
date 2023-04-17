@@ -45,6 +45,11 @@ const NavbarLanding = () => {
       exact: "",
     },
     {
+      name: "Blog",
+      link: "/blog",
+      exact: "",
+    },
+    {
       name: "Contact Us",
       link: "/contact-us",
       exact: "",

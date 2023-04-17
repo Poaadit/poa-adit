@@ -43,6 +43,11 @@ const NavbarLanding = () => {
       exact: "",
     },
     {
+      name: "Blog",
+      link: "/blog",
+      exact: "",
+    },
+    {
       name: "Contact Us",
       link: "/contact-us",
       exact: "",
@@ -171,6 +176,22 @@ const NavbarLanding = () => {
                     activeClassName="activeD"
                     className="line"
                     to="/our-services"
+                  ></NavLink>
+                </div>
+                <div className="menuItem">
+                  <Link
+                    to="/blog"
+                    onClick={() => {
+                      closeDrawer();
+                    }}
+                  >
+                    {" "}
+                    BLOG
+                  </Link>
+                  <NavLink
+                    activeClassName="activeD"
+                    className="line"
+                    to="/blog"
                   ></NavLink>
                 </div>
                 <div className="menuItem">

@@ -15,7 +15,8 @@ $darkerorange: #c20b09ff;
   //carousel
   .carousel_div0,
   .carousel_div1,
-  .carousel_div2 {
+  .carousel_div2,
+  .carousel_div3 {
     opacity: 1;
     background-position: center;
     background-size: 100%;
@@ -80,6 +81,18 @@ $darkerorange: #c20b09ff;
         rgba(221, 214, 214, 0) 200.56%
       ),
       url("../../Assets/images/home2.png");
+    background-size: cover;
+
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  .carousel_div3 {
+    background-image: linear-gradient(
+        180deg,
+        #fffdfd00 -15.39%,
+        rgba(221, 214, 214, 0) 200.56%
+      ),
+      url("../../Assets/images/home4.png");
     background-size: cover;
 
     background-repeat: no-repeat;

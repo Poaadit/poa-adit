@@ -72,6 +72,11 @@ const Hometest = () => {
             <h4>The Ultimate Construction Experience</h4>
           </div>
         </div>
+        <div>
+          <div className="carousel_div3" style={contentStyle}>
+            
+          </div>
+        </div>
       </Carousel>
 
       <div className="homemain">

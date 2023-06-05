@@ -1,11 +1,11 @@
 import About from "../../Assets/images/blog1.jpg"
 import Bout from "../../Assets/images/blog2.jpg"
 
-export const blogdata = [
+export const blogdata2 = [
     {
         id: 1,
-        details: "Investment Opportunities in Nigeria's Construction Industry",
-        details2: ["One of the most neglected sectors when it comes to investment in Nigeria is the Construction sector. Nigeria's construction industry offers several investment opportunities, including residential housing, infrastructure, and retail. In this article, you will learn about three investment opportunities in Nigeria's Construction Industry.",
+        details: "The Opportunities in Nigeria's Construction Industry",
+        details2: ["It's funny how one of the most neglected sectors when it comes to investment in Nigeria is the Construction sector. Nigeria's construction industry offers several investment opportunities, including residential housing, infrastructure, and retail. In this article, you will learn about three investment opportunities in Nigeria's Construction Industry.",
         <br/>,
         <br/>,
 
@@ -32,8 +32,8 @@ export const blogdata = [
     },
     {
         id: 2,
-        details: "A Beginner's Guide To Securing Funding For Real Estate Development",
-        details2: ["Real estate development often requires external funding to cover property acquisition, planning, construction, and other expenses. Home construction loans can be a secure way to finance a home improvement project, starting as a short-term, high-interest loan and converting into a mortgage once the work is done.",
+        details: "14 Beginner's Guide To Securing Funding For Real Estate Development",
+        details2: ["The truth about real estate development often requires external funding to cover property acquisition, planning, construction, and other expenses. Home construction loans can be a secure way to finance a home improvement project, starting as a short-term, high-interest loan and converting into a mortgage once the work is done.",
         <br/>,
         <br/>,
         "Most banks and credit unions offer these loans, with approval depending on your credit score and your contractor's financial standing and previous projects. The bank pays the contractor in monthly draws, with the owner usually making interest-only payments during construction. These loans typically have higher interest rates than regular mortgages but can be repaid over 15 to 30 years once converted.",

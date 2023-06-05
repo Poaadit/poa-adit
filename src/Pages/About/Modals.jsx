@@ -63,16 +63,14 @@ export const Modal2 = ({ visible, setVisible }) => {
         <div>
           <h3>Bode Gbolade</h3>
           <p>
-            He is an astute professional with over twenty-one (21) years cognate
-            experience in the built environment. He holds a B-Tech in
-            Architecture from the Federal Univeristy of Technology, Akure, Ondo
-            State, Nigeria. He is a fellow of the Nigeria Institute of
-            Architects (NIA) and a member of Architects Registration Council of
-            Nigeria (ARCON). Bode is an International associate of American
-            Institute of Architects (AIA) and also a fellow of the International
-            professional Managers Association, Uk. He is an astute human
-            resource manager, with focus on optimization and corporate
-            management.
+            He is an astute professional with over twenty-three (23) years cognate experience 
+            in the built environment. He holds a B-Tech and M-Tech in Architecture from the 
+            Federal Univeristy of Technology, Akure, Ondo State, Nigeria. He is a fellow of 
+            the Nigeria Institute of Architects (NIA) and a member of Architects Registration 
+            Council of Nigeria (ARCON). Bode is an International associate of American Institute 
+            of Architects (AIA) and also a fellow of the International professional Managers 
+            Association, Uk. He is an astute human resource manager, with focus on optimization, 
+            corporate transformation and corporate management.
           </p>
           <Button3 id="member_close" onClick={() => setVisible(false)}>
             Close

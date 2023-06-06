@@ -47,30 +47,27 @@ $darkerorange: #c20b09ff;
 
 .blogwrap{
   width: 100%;
-  display: flex;
-  justify-content: center;
 }
 
 .blogsection {
   width: 90%;
-  display: flex;
-  justify-content: space-around;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .blogsub{
-  width: 100%;
-  display: flex;
+  width: 90%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
-.pee{
-  width: 90%;
-  margin: auto;
+.bcimage{
+  display: inline-flex;
+  padding: 50px 50px;
 }
 
 .blogcardimg{
-  width: 40vw;
-  padding: 50px 0px;
-  margin: 0px 20px;
+  width: 30vw;
 }
 
 .blogcardimg img{
@@ -79,7 +76,7 @@ $darkerorange: #c20b09ff;
 
 .blogheading{
   margin-top: 10px;
-  width: 70%;
+  width: 100%;
   font-family: sans-serif;
   .blogp{
     font-weight: 800;
@@ -102,16 +99,20 @@ $darkerorange: #c20b09ff;
   transition: ease-in-out .3s;
 }
 
-@media only screen and (max-width: 768px) {
-  .blogsub{
-    display: block;
-    margin: auto;
+@media only screen and (max-width: 955px) {
+
+  .bcimage{
+    display: inline-flex;
+    padding: 50px 40px;
   }
+  
+}
+
+@media only screen and (max-width: 768px) {
 
   .blogcardimg{
     width: 60vw;
-    padding: 50px 0px;
-    margin: 0px 20px;
+    padding: 0px 0px;
   }
 
   .blogheading{

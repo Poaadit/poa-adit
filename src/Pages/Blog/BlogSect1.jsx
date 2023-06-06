@@ -32,9 +32,8 @@ const BlogSect1 = () => {
                     {
                       blogdata.map((items) => {
                         return (
-                          <div className="pee">
 
-                            <div key={items.id}>
+                            <div className="bcimage" key={items.id}>
                               <div className="blogcardimg">
                                 <img src={items?.image} alt="" />
 
@@ -45,8 +44,6 @@ const BlogSect1 = () => {
 
                                 <button className="blogbtn" onClick={() => blogHandler(items)}>read more</button>
                               </div>
-
-                            </div>
                           </div>
                         )
                       })

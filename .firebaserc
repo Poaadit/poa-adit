@@ -1,5 +1,12 @@
 {
   "projects": {
     "default": "poa-adit-web"
+  },
+  "targets": {
+    "your-firebase-project-id": {
+      "hosting": {
+        "your-target-name": ["poa-adit-web"]
+      }
+    }
   }
 }

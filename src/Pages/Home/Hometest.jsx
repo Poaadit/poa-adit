@@ -9,6 +9,7 @@ import { ColumnContainer } from "../../Components/ResponsiveConts";
 
 import Linkedin from "../../Assets/icons/linkedin0.svg";
 import Instagram from "../../Assets/icons/instagram.svg";
+import Facebook from "../../Assets/icons/facebook.svg";
 import HomeSect2 from "./Sect2";
 import HomeSect3 from "./HomeSect3";
 import HomeSect5 from "./HomeSect5";
@@ -38,7 +39,7 @@ const Hometest = () => {
     {
       img: `${Linkedin}`,
       link: "https://www.linkedin.com/company/poaadit",
-      alt: "twitter",
+      alt: "Linkd",
       width: "22px",
     },
     {
@@ -47,7 +48,12 @@ const Hometest = () => {
       alt: "inst",
       width: "20px",
     },
-    
+    {
+      img: `${Facebook}`,
+      link: "https://www.facebook.com/profile.php?id=100083142101737",
+      alt: "Faceb",
+      width: "20px",
+    },
   ];
 
   return (

@@ -1,5 +1,6 @@
 {
   "hosting": {
+    "site": "poa-adit-web",
     "public": "build",
     "ignore": [
       "firebase.json",

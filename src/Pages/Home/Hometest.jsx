@@ -53,6 +53,7 @@ const Hometest = () => {
       link: "https://www.facebook.com/profile.php?id=100083142101737",
       alt: "Faceb",
       width: "20px",
+      height: "20px",
     },
   ];
 

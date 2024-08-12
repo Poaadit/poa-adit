@@ -93,38 +93,6 @@ export const Modal3 = ({ visible, setVisible }) => {
     >
       <div className="member_modal">
         <div>
-          <LazyLoadImage src={Busola} alt="team" effect="blur" />
-        </div>
-        <div>
-          <h3>Busola Ilesanmi</h3>
-          <p>
-            Is a dedicated and dependable Administrative Officer with over four
-            years cognate experience. A confident and personable professional
-            who is poised to take the companies administrative operations to the
-            next level. She holds an HND in Business Administration from the
-            Lagos State Polytechnic (LASPOTECH).
-          </p>
-          <Button3 id="member_close" onClick={() => setVisible(false)}>
-            Close
-          </Button3>
-        </div>
-      </div>
-    </Modal>
-  );
-};
-
-export const Modal4 = ({ visible, setVisible }) => {
-  return (
-    <Modal
-      title=""
-      centered
-      visible={visible}
-      footer={null}
-      onOk={() => setVisible(false)}
-      onCancel={() => setVisible(false)}
-    >
-      <div className="member_modal">
-        <div>
           <LazyLoadImage src={Dolapo} alt="team" effect="blur" />
         </div>
         <div>
@@ -148,7 +116,7 @@ export const Modal4 = ({ visible, setVisible }) => {
   );
 };
 
-export const Modal5 = ({ visible, setVisible }) => {
+export const Modal4 = ({ visible, setVisible }) => {
   return (
     <Modal
       title=""

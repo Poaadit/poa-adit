@@ -76,8 +76,8 @@ import { Modal1, Modal2, Modal3, Modal4 } from "./Modals"; const AbtSect2 = () =
           <>
             <Modal1 visible={modal1Visible} setVisible={setmodal1Visible} />
             <Modal2 visible={modal2Visible} setVisible={setmodal2Visible} />
-            <Modal4 visible={modal3Visible} setVisible={setmodal3Visible} />
-            <Modal5 visible={modal4Visible} setVisible={setmodal4Visible} />
+            <Modal3 visible={modal3Visible} setVisible={setmodal3Visible} />
+            <Modal4 visible={modal4Visible} setVisible={setmodal4Visible} />
           </>
         </div>
       </ColumnContainer>

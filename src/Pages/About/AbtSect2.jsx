@@ -10,8 +10,8 @@ import { Modal1, Modal2, Modal3, Modal4 } from "./Modals"; const AbtSect2 = () =
 
   const Team = [
     {
-      name: "Adeyemi Adiatu",
-      rank: "C.E.O",
+      name: "Dr. Tayo Adiatu  Adeyemi",
+      rank: "Chief Executive Officer",
       more: <h6 onClick={() => setmodal1Visible(true)}>Read More</h6>,
     },
     {

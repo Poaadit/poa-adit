@@ -23,18 +23,11 @@ export const Modal1 = ({ visible, setVisible }) => {
           <LazyLoadImage src={Adeyemi} alt="team" effect="blur" />
         </div>
         <div>
-          <h3>Adeyemi Adiatu</h3>
+          <h3>Dr. Tayo Adiatu Adeyemi</h3>
           <p>
-            He is a savy businessman with over twenty years experience. He holds
-            a Bsc degree in Pure and Applied Chemistryand an MBA from Ladoke
-            Akintola Univeristy of Technology, Oyo State, Nigeria. He is a
-            member at the institute of Directors (IOD) and other professional
-            bodies. He holds an Executive MBA degree from the Metropolitan
-            School of Business Management (MSBM), London, Uk. In 2019, He
-            concluded the owner/President management (OPM) programme at the
-            prestigious Havard Business school in Boston, USA. He is an expert
-            in people management, conflict resolution, strategic negotiations
-            and corporate administration.
+            Dr. Adiatu is an astute businessman with over twenty years of wealth of experience. He holds a Bachelors degree in Pure and Applied Chemistry, an MBA degree and an honorary Doctorate degree in Business Administration from Ladoke Akintola University of Technology, Oyo State Nigeria. He is a member of the Institute of Directors (loD) and other professional bodies.
+
+He bags an Executive MBA degree from the Metropolitan School of BusinessManagement (MSBM), London, UK. In 2019, he concluded the Owner/President Management (OPM) programme at the Havard Business School in Boston, USA. He is an expert in people management, conflict resolution, strategic negotiations and corporate administration.
           </p>
           <Button3 id="member_close" onClick={() => setVisible(false)}>
             Close

@@ -5,7 +5,7 @@ import "./Styles/Footer.scss";
 import Locatio1 from "../Assets/icons/location1.svg";
 import Telephone from "../Assets/icons/telephone.svg";
 import Instagram from "../Assets/icons/instagramL.svg";
-
+import Facebook from "../Assets/icons/facebookL.svg";
 import Linkedin from "../Assets/icons/linkedinW.svg";
 import { MailOutlined} from "@ant-design/icons/lib/icons";
 
@@ -13,7 +13,7 @@ const Footer = () => {
   const SideSocials = [
     {
       img: `${Linkedin}`,
-      alt: "fcbook",
+      alt: "linkd",
       width: "20px",
       link:"https://www.linkedin.com/company/poaadit"
     },
@@ -22,6 +22,13 @@ const Footer = () => {
       alt: "inst",
       width: "17px",
       link:"https://www.instagram.com/poaaditlimited/"
+    },
+    {
+      img: `${Facebook}`,
+      alt: "faceb",
+      width: "20px",
+      height: "20px",
+      link:"https://www.facebook.com/profile.php?id=100083142101737"
     },
   ];
 

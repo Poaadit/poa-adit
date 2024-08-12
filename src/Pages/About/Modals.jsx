@@ -4,7 +4,6 @@ import { Button3 } from "../../Components/ResponsiveConts";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 
 import Olabode from "../../Assets/images/Olabode.jpg";
-import Busola from "../../Assets/images/Busola.jpg";
 import Adeyemi from "../../Assets/images/Adeyemi.png";
 import Adeyinka from "../../Assets/images/Adeyinka.png";
 import Dolapo from "../../Assets/images/Dolapo.png";

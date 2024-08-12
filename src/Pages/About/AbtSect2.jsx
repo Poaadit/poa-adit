@@ -2,10 +2,10 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import { Button2, ColumnContainer } from "../../Components/ResponsiveConts";
 import "./About.scss";
-import { Modal1, Modal2, Modal3, Modal4, Modal5 } from "./Modals"; const AbtSect2 = () => {
+import { Modal1, Modal2, Modal4, Modal5 } from "./Modals"; const AbtSect2 = () => {
   const [modal1Visible, setmodal1Visible] = useState(false);
   const [modal2Visible, setmodal2Visible] = useState(false);
-  //const [modal3Visible, setmodal3Visible] = useState(false);
+
   const [modal4Visible, setmodal4Visible] = useState(false);
   const [modal5Visible, setmodal5Visible] = useState(false);
 
@@ -22,13 +22,7 @@ import { Modal1, Modal2, Modal3, Modal4, Modal5 } from "./Modals"; const AbtSect
       paragraph:
         "He is an astute professional with over twenty-three (23) years cognate experience in the built environment. He holds a B-Tech and M-Tech in Architecture from the Federal Univeristy of Technology, Akure, Ondo State, Nigeria. He is a fellow of the Nigeria Institute of Architects (NIA) and a member of Architects Registration Council of Nigeria (ARCON). Bode is an International associate of American Institute of Architects (AIA) and also a fellow of the International professional Managers Association, Uk. He is an astute human resource manager, with focus on optimization, corporate transformation and corporate management.",
     },
-   /* {
-      name: "Busola Ilesanmi",
-      rank: "Admin/HR",
-      more: <h6 onClick={() => setmodal3Visible(true)}>Read More</h6>,
-      paragraph:
-        "Is a dedicated and dependable Administrative Officer with over four years cognate experience. A confident and personable professional who is poised to take the companies administrative operations to the next level. She holds an HND in Business Administration from the Lagos State Polytechnic (LASPOTECH).",
-    }, */
+
     {
       name: "Dolapo Akinwale",
       rank: "Strategy & Business Development",
@@ -84,7 +78,7 @@ import { Modal1, Modal2, Modal3, Modal4, Modal5 } from "./Modals"; const AbtSect
           <>
             <Modal1 visible={modal1Visible} setVisible={setmodal1Visible} />
             <Modal2 visible={modal2Visible} setVisible={setmodal2Visible} />
-           // <Modal3 visible={modal3Visible} setVisible={setmodal3Visible} />
+            
             <Modal4 visible={modal4Visible} setVisible={setmodal4Visible} />
             <Modal5 visible={modal5Visible} setVisible={setmodal5Visible} />
           </>

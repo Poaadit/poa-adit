@@ -49,6 +49,14 @@ import Saintjoseph3 from "../../Assets/images/SaintJoseph/Joseph3.png";
 import Saintjoseph4 from "../../Assets/images/SaintJoseph/Joseph4.png";
 import Saintjoseph5 from "../../Assets/images/SaintJoseph/Joseph5.png";
 
+import Euba0 from "../../Assets/images/Euba/best construction company in Nigeria 5.jpg";
+import Euba1 from "../../Assets/images/Euba/euba1.jpg";
+import Euba2 from "../../Assets/images/Euba/euba2.jpg";
+import Euba3 from "../../Assets/images/Euba/euba3.jpg";
+import Euba4 from "../../Assets/images/Euba/euba4.jpg";
+import Euba5 from "../../Assets/images/Euba/euba5.jpg";
+import Euba6 from "../../Assets/images/Euba/euba6.jpg";
+
 import ProjPic from "../../Assets/images/projectsImg.jpeg";
 
 import "./Project.scss";
@@ -240,26 +248,11 @@ export const ProjectSix = () => {
         <Image.PreviewGroup
           preview={{ visible, onVisibleChange: (vis) => setVisible(vis) }}
         >
-          <Image
-            src={Saintjoseph1}
-            alt="best construction company in Nigeria"
-          />
-          <Image
-            src={Saintjoseph2}
-            alt="best construction company in Nigeria"
-          />
-          <Image
-            src={Saintjoseph3}
-            alt="best construction company in Nigeria"
-          />
-          <Image
-            src={Saintjoseph4}
-            alt="best construction company in Nigeria"
-          />
-          <Image
-            src={Saintjoseph5}
-            alt="best construction company in Nigeria"
-          />
+          <Image src={Saintjoseph1} alt="best construction company in Nigeria" />
+          <Image src={Saintjoseph2} alt="best construction company in Nigeria" />
+          <Image src={Saintjoseph3} alt="best construction company in Nigeria" />
+          <Image src={Saintjoseph4} alt="best construction company in Nigeria" />
+          <Image src={Saintjoseph5} alt="best construction company in Nigeria" />
         </Image.PreviewGroup>
       </div>
 
@@ -267,6 +260,42 @@ export const ProjectSix = () => {
       <Button2 id="commercial_btn">Educational</Button2>
       <div className="transp_mask" onClick={() => setVisible(true)}>
         <h1>St Joseph Secondary School</h1>
+        <h5>Lagos</h5>
+      </div>
+    </div>
+  );
+};
+
+export const ProjectSeven = () => {
+  const [visible, setVisible] = useState(false);
+  return (
+    <div className="antdimagecont">
+      <Image
+        preview={{ visible: false }}
+        height="100%"
+        src={Euba0}
+        onClick={() => setVisible(true)}
+        className="project_image"
+        style={{ maxWidth: "100%", width: "auto" }}
+        alt="best construction company in Nigeria"
+      />
+      <div style={{ display: "none" }}>
+        <Image.PreviewGroup
+          preview={{ visible, onVisibleChange: (vis) => setVisible(vis) }}
+        >
+          <Image src={Euba1} alt="best construction company in Nigeria" />
+          <Image src={Euba2} alt="best construction company in Nigeria" />
+          <Image src={Euba3} alt="best construction company in Nigeria" />
+          <Image src={Euba4} alt="best construction company in Nigeria" />
+          <Image src={Euba5} alt="best construction company in Nigeria" />
+          <Image src={Euba6} alt="best construction company in Nigeria" />
+        </Image.PreviewGroup>
+      </div>
+
+      <Check id="check_btn" />
+      <Button2 id="commercial_btn">Educational</Button2>
+      <div className="transp_mask" onClick={() => setVisible(true)}>
+        <h1>Euba Secondary School</h1>
         <h5>Lagos</h5>
       </div>
     </div>
@@ -282,6 +311,7 @@ export const ProjectImages = ({ id }) => {
       <ProjectFour />
       <ProjectFive />
       <ProjectSix />
+      <ProjectSeven />
     </div>
   );
 };

@@ -63,6 +63,14 @@ import KetuJetty2 from "../../Assets/images/Agboyi-ketu/agboyi-ketu-3.jpeg";
 import KetuJetty3 from "../../Assets/images/Agboyi-ketu/agboyi-ketu-4.jpeg";
 import KetuJetty4 from "../../Assets/images/Agboyi-ketu/agboyi-ketu-5.jpeg";
 
+import SkystoneInt0 from "../../Assets/images/Skystone-int/skystone-int-6.JPG";
+import SkystoneInt1 from "../../Assets/images/Skystone-int/skystone-int-1.JPG";
+import SkystoneInt2 from "../../Assets/images/Skystone-int/skystone-int-2.JPG";
+import SkystoneInt3 from "../../Assets/images/Skystone-int/skystone-int-3.JPG";
+import SkystoneInt4 from "../../Assets/images/Skystone-int/skystone-int-4.JPG";
+import SkystoneInt5 from "../../Assets/images/Skystone-int/skystone-int-5.JPG";
+import SkystoneInt6 from "../../Assets/images/Skystone-int/skystone-int-7.JPG";
+
 import ProjPic from "../../Assets/images/projectsImg.jpeg";
 
 import "./Project.scss";
@@ -341,6 +349,41 @@ export const ProjectEight = () => {
   );
 };
 
+export const ProjectNine = () => {
+  const [visible, setVisible] = useState(false);
+  return (
+    <div className="antdimagecont">
+      <Image
+        preview={{ visible: false }}
+        src={SkystoneInt0}
+        onClick={() => setVisible(true)}
+        className="project_image"
+        style={{ maxWidth: "100%", width: "600px" }}
+        alt="best construction company in Nigeria"
+      />
+      <div style={{ display: "none" }}>
+        <Image.PreviewGroup
+          preview={{ visible, onVisibleChange: (vis) => setVisible(vis) }}
+        >
+          <Image src={SkystoneInt1} alt="best construction company in Nigeria" />
+          <Image src={SkystoneInt2} alt="best construction company in Nigeria" />
+          <Image src={SkystoneInt3} alt="best construction company in Nigeria" />
+          <Image src={SkystoneInt4} alt="best construction company in Nigeria" />
+          <Image src={SkystoneInt5} alt="best construction company in Nigeria" />
+          <Image src={SkystoneInt6} alt="best construction company in Nigeria" />
+        </Image.PreviewGroup>
+      </div>
+
+      <Check id="check_btn" />
+      <Button2 id="commercial_btn">Commercial</Button2>
+      <div className="transp_mask" onClick={() => setVisible(true)}>
+        <h1>Agboyi Ketu Jetty</h1>
+        <h5>Lagos</h5>
+      </div>
+    </div>
+  );
+};
+
 export const ProjectImages = ({ id }) => {
   return (
     <div className="projpics" id={id}>
@@ -352,6 +395,8 @@ export const ProjectImages = ({ id }) => {
       <ProjectSix />
       <ProjectSeven />
       <ProjectEight />
+      <ProjectNine />
+      
     </div>
   );
 };

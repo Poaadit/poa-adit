@@ -49,10 +49,10 @@ import Saintjoseph3 from "../../Assets/images/SaintJoseph/Joseph3.png";
 import Saintjoseph4 from "../../Assets/images/SaintJoseph/Joseph4.png";
 import Saintjoseph5 from "../../Assets/images/SaintJoseph/Joseph5.png";
 
-import Euba0 from "../../Assets/images/Euba/euba6.jpg";
+import Euba0 from "../../Assets/images/Euba/euba3.jpg";
 import Euba1 from "../../Assets/images/Euba/euba1.jpg";
 import Euba2 from "../../Assets/images/Euba/euba2.jpg";
-import Euba3 from "../../Assets/images/Euba/euba3.jpg";
+import Euba3 from "../../Assets/images/Euba/euba6.jpg";
 import Euba4 from "../../Assets/images/Euba/euba4.jpg";
 import Euba5 from "../../Assets/images/Euba/euba5.jpg";
 import Euba6 from "../../Assets/images/Euba/euba0.jpg";

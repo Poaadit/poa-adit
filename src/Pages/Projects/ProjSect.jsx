@@ -57,6 +57,12 @@ import Euba4 from "../../Assets/images/Euba/euba4.jpg";
 import Euba5 from "../../Assets/images/Euba/euba5.jpg";
 import Euba6 from "../../Assets/images/Euba/euba6.jpg";
 
+import KetuJetty0 from "../../Assets/images/Agboyi-ketu/agboyi-ketu-1.jpeg";
+import KetuJetty1 from "../../Assets/images/Agboyi-ketu/agboyi-ketu-2.jpeg";
+import KetuJetty2 from "../../Assets/images/Agboyi-ketu/agboyi-ketu-3.jpeg";
+import KetuJetty3 from "../../Assets/images/Agboyi-ketu/agboyi-ketu-4.jpeg";
+import KetuJetty4 from "../../Assets/images/Agboyi-ketu/agboyi-ketu-5.jpeg";
+
 import ProjPic from "../../Assets/images/projectsImg.jpeg";
 
 import "./Project.scss";
@@ -302,6 +308,39 @@ export const ProjectSeven = () => {
   );
 };
 
+export const ProjectEight = () => {
+  const [visible, setVisible] = useState(false);
+  return (
+    <div className="antdimagecont">
+      <Image
+        preview={{ visible: false }}
+        src={KetuJetty0}
+        onClick={() => setVisible(true)}
+        className="project_image"
+        style={{ maxWidth: "100%", width: "600px" }}
+        alt="best construction company in Nigeria"
+      />
+      <div style={{ display: "none" }}>
+        <Image.PreviewGroup
+          preview={{ visible, onVisibleChange: (vis) => setVisible(vis) }}
+        >
+          <Image src={KetuJetty1} alt="best construction company in Nigeria" />
+          <Image src={KetuJetty2} alt="best construction company in Nigeria" />
+          <Image src={KetuJetty3} alt="best construction company in Nigeria" />
+          <Image src={KetuJetty4} alt="best construction company in Nigeria" />
+        </Image.PreviewGroup>
+      </div>
+
+      <Check id="check_btn" />
+      <Button2 id="commercial_btn">Infrastructure</Button2>
+      <div className="transp_mask" onClick={() => setVisible(true)}>
+        <h1>Agboyi Ketu Jetty</h1>
+        <h5>Lagos</h5>
+      </div>
+    </div>
+  );
+};
+
 export const ProjectImages = ({ id }) => {
   return (
     <div className="projpics" id={id}>
@@ -312,6 +351,7 @@ export const ProjectImages = ({ id }) => {
       <ProjectFive />
       <ProjectSix />
       <ProjectSeven />
+      <ProjectEight />
     </div>
   );
 };

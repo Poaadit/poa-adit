@@ -377,7 +377,7 @@ export const ProjectNine = () => {
       <Check id="check_btn" />
       <Button2 id="commercial_btn">Commercial</Button2>
       <div className="transp_mask" onClick={() => setVisible(true)}>
-        <h1>Agboyi Ketu Jetty</h1>
+        <h1>Skystone Interior</h1>
         <h5>Lagos</h5>
       </div>
     </div>

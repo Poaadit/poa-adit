@@ -63,13 +63,13 @@ import KetuJetty2 from "../../Assets/images/Agboyi-ketu/agboyi-ketu-3.jpeg";
 import KetuJetty3 from "../../Assets/images/Agboyi-ketu/agboyi-ketu-4.jpeg";
 import KetuJetty4 from "../../Assets/images/Agboyi-ketu/agboyi-ketu-5.jpeg";
 
-import SkystoneInt0 from "../../Assets/images/Skystone-int/skystone-int-6.JPG";
-import SkystoneInt1 from "../../Assets/images/Skystone-int/skystone-int-1.JPG";
-import SkystoneInt2 from "../../Assets/images/Skystone-int/skystone-int-2.JPG";
-import SkystoneInt3 from "../../Assets/images/Skystone-int/skystone-int-3.JPG";
-import SkystoneInt4 from "../../Assets/images/Skystone-int/skystone-int-4.JPG";
-import SkystoneInt5 from "../../Assets/images/Skystone-int/skystone-int-5.JPG";
-import SkystoneInt6 from "../../Assets/images/Skystone-int/skystone-int-7.JPG";
+import SkystoneInt0 from "../../Assets/images/Skystone-Int/skystone-int-6.JPG";
+import SkystoneInt1 from "../../Assets/images/Skystone-Int/skystone-int-1.JPG";
+import SkystoneInt2 from "../../Assets/images/Skystone-Int/skystone-int-2.JPG";
+import SkystoneInt3 from "../../Assets/images/Skystone-Int/skystone-int-3.JPG";
+import SkystoneInt4 from "../../Assets/images/Skystone-Int/skystone-int-4.JPG";
+import SkystoneInt5 from "../../Assets/images/Skystone-Int/skystone-int-5.JPG";
+import SkystoneInt6 from "../../Assets/images/Skystone-Int/skystone-int-7.JPG";
 
 import ProjPic from "../../Assets/images/projectsImg.jpeg";
 

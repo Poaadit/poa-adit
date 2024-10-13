@@ -49,19 +49,16 @@ import Saintjoseph3 from "../../Assets/images/SaintJoseph/Joseph3.png";
 import Saintjoseph4 from "../../Assets/images/SaintJoseph/Joseph4.png";
 import Saintjoseph5 from "../../Assets/images/SaintJoseph/Joseph5.png";
 
-import Euba0 from "../../Assets/images/Euba/euba0.png";
-import Euba1 from "../../Assets/images/Euba/euba1.jpg";
-import Euba2 from "../../Assets/images/Euba/euba2.jpg";
-import Euba3 from "../../Assets/images/Euba/euba3.jpg";
-import Euba4 from "../../Assets/images/Euba/euba4.jpg";
-import Euba5 from "../../Assets/images/Euba/euba5.jpg";
-import Euba6 from "../../Assets/images/Euba/euba6.jpg";
+import Euba0 from "../../Assets/images/Euba/euba-ss-1.jpeg";
+import Euba1 from "../../Assets/images/Euba/euba-ss-2.jpeg";
+import Euba2 from "../../Assets/images/Euba/euba-ss-3.jpeg";
+import Euba3 from "../../Assets/images/Euba/euba-ss-4.jpeg";
+import Euba4 from "../../Assets/images/Euba/euba-ss-5.jpeg";
 
-import KetuJetty0 from "../../Assets/images/Agboyi-ketu/agboyi-ketu-1.jpeg";
-import KetuJetty1 from "../../Assets/images/Agboyi-ketu/agboyi-ketu-2.jpeg";
-import KetuJetty2 from "../../Assets/images/Agboyi-ketu/agboyi-ketu-3.jpeg";
-import KetuJetty3 from "../../Assets/images/Agboyi-ketu/agboyi-ketu-4.jpeg";
-import KetuJetty4 from "../../Assets/images/Agboyi-ketu/agboyi-ketu-5.jpeg";
+import KetuJetty0 from "../../Assets/images/Agboyi-ketu/agboyi-jetty-1.jpeg";
+import KetuJetty1 from "../../Assets/images/Agboyi-ketu/agboyi-jetty-2.jpeg";
+import KetuJetty2 from "../../Assets/images/Agboyi-ketu/agboyi-jetty-3.jpeg";
+import KetuJetty3 from "../../Assets/images/Agboyi-ketu/agboyi-jetty-4.jpeg";
 
 import SkystoneInt0 from "../../Assets/images/Skystone-Int/skystone-int-6.JPG";
 import SkystoneInt1 from "../../Assets/images/Skystone-Int/skystone-int-1.JPG";
@@ -70,6 +67,8 @@ import SkystoneInt3 from "../../Assets/images/Skystone-Int/skystone-int-3.JPG";
 import SkystoneInt4 from "../../Assets/images/Skystone-Int/skystone-int-4.JPG";
 import SkystoneInt5 from "../../Assets/images/Skystone-Int/skystone-int-5.JPG";
 import SkystoneInt6 from "../../Assets/images/Skystone-Int/skystone-int-7.JPG";
+
+import SkystoneSide0 from "../../Assets/images/Skystone-Int/skystone-side-1.jpeg";
 
 import ProjPic from "../../Assets/images/projectsImg.jpeg";
 
@@ -384,6 +383,37 @@ export const ProjectNine = () => {
   );
 };
 
+export const ProjectTen = () => {
+  const [visible, setVisible] = useState(false);
+  return (
+    <div className="antdimagecont">
+      <Image
+        preview={{ visible: false }}
+        src={SkystoneSide0}
+        onClick={() => setVisible(true)}
+        className="project_image"
+        style={{ maxWidth: "100%", width: "600px" }}
+        alt="best construction company in Nigeria"
+      />
+      <div style={{ display: "none" }}>
+        <Image.PreviewGroup
+          preview={{ visible, onVisibleChange: (vis) => setVisible(vis) }}
+        >
+          <Image src={SkystoneSide0} alt="best construction company in Nigeria" />
+
+        </Image.PreviewGroup>
+      </div>
+
+      <Check id="check_btn" />
+      <Button2 id="commercial_btn">Residential</Button2>
+      <div className="transp_mask" onClick={() => setVisible(true)}>
+        <h1>Skystone Container</h1>
+        <h5>Lagos</h5>
+      </div>
+    </div>
+  );
+};
+
 export const ProjectImages = ({ id }) => {
   return (
     <div className="projpics" id={id}>
@@ -396,6 +426,7 @@ export const ProjectImages = ({ id }) => {
       <ProjectSeven />
       <ProjectEight />
       <ProjectNine />
+      <ProjectTen />
       
     </div>
   );

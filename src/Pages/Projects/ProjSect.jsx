@@ -300,8 +300,7 @@ export const ProjectSeven = () => {
           <Image src={Euba2} alt="best construction company in Nigeria" />
           <Image src={Euba3} alt="best construction company in Nigeria" />
           <Image src={Euba4} alt="best construction company in Nigeria" />
-          <Image src={Euba5} alt="best construction company in Nigeria" />
-          <Image src={Euba6} alt="best construction company in Nigeria" />
+
         </Image.PreviewGroup>
       </div>
 

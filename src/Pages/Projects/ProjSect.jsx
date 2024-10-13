@@ -333,7 +333,6 @@ export const ProjectEight = () => {
           <Image src={KetuJetty1} alt="best construction company in Nigeria" />
           <Image src={KetuJetty2} alt="best construction company in Nigeria" />
           <Image src={KetuJetty3} alt="best construction company in Nigeria" />
-          <Image src={KetuJetty4} alt="best construction company in Nigeria" />
         </Image.PreviewGroup>
       </div>
 

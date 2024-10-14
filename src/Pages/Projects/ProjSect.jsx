@@ -49,7 +49,7 @@ import Saintjoseph3 from "../../Assets/images/SaintJoseph/Joseph3.png";
 import Saintjoseph4 from "../../Assets/images/SaintJoseph/Joseph4.png";
 import Saintjoseph5 from "../../Assets/images/SaintJoseph/Joseph5.png";
 
-import Euba0 from "../../Assets/images/Euba/euba-ss-1.jpeg";
+import Euba0 from "../../Assets/images/Euba/euba-ss-1.png";
 import Euba1 from "../../Assets/images/Euba/euba-ss-2.jpeg";
 import Euba2 from "../../Assets/images/Euba/euba-ss-3.jpeg";
 import Euba3 from "../../Assets/images/Euba/euba-ss-4.jpeg";
@@ -68,7 +68,7 @@ import SkystoneInt4 from "../../Assets/images/Skystone-Int/skystone-int-4.JPG";
 import SkystoneInt5 from "../../Assets/images/Skystone-Int/skystone-int-5.JPG";
 import SkystoneInt6 from "../../Assets/images/Skystone-Int/skystone-int-7.JPG";
 
-import SkystoneSide0 from "../../Assets/images/Skystone-Int/skystone-side-1.jpeg";
+import SkystoneSide0 from "../../Assets/images/Skystone-Int/skystone-cont-1.png";
 
 import ProjPic from "../../Assets/images/projectsImg.jpeg";
 

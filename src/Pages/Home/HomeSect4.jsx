@@ -16,9 +16,9 @@ const HomeSect4 = () => {
       <ColumnContainer id="sect4cont">
         <div className="homesect4" data-aos="fade-up">
          <span><h2 className="somefacts">Some Facts <br/> About Us</h2></span>
-         <span><h2>18+</h2><h4>Years of Experience</h4></span>
-         <span><h2>19</h2><h4>Delivered Projects</h4></span>
-         <span><h2>10</h2><h4>Locations</h4></span>
+         <span><h2>19+</h2><h4>Years of Experience</h4></span>
+         <span><h2>30</h2><h4>Delivered Projects</h4></span>
+         <span><h2>20</h2><h4>Locations</h4></span>
          <span><h2>5B+</h2><h4>Value of Projects</h4></span>
 
         </div>

@@ -403,7 +403,7 @@ export const ProjectTen = () => {
       </div>
 
       <Check id="check_btn" />
-      <Button2 id="commercial_btn">Residential</Button2>
+      <Button2 id="commercial_btn">Commercial</Button2>
       <div className="transp_mask" onClick={() => setVisible(true)}>
         <h1>Skystone Container</h1>
         <h5>Lagos</h5>

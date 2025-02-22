@@ -64,7 +64,7 @@ const Footer = () => {
               ))}
             </div>
           </div>
-          <li className="copyright">©POA ADIT 2024</li>
+          <li className="copyright">©POA ADIT 2025</li>
         </ColumnContainer>
       </div>
     </div>

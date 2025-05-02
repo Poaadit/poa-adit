@@ -273,6 +273,7 @@ export const blogdata = [
         <br/>,
         <br/>,
         "1. Define Your Project Scope and Objectives",
+	<br/>,
         "Clearly outline your project's purpose, size, and expected outcomes. Establishing a well-defined scope helps set realistic expectations, avoid unnecessary delays, and ensure all stakeholders are aligned from the beginning.",
         <br/>,
         <br/>,

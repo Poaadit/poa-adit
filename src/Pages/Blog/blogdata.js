@@ -335,7 +335,6 @@ export const blogdata = [
         <br/>,
         <br/>,
         "Successful construction projects in 2025 will require strategic planning, compliance with regulations, and a focus on quality and safety. By considering these key factors, Poa Adit Nigeria Limited ensures every project is executed efficiently, delivering value to clients and stakeholders.",
-        <br/>
         "For expert guidance on your next construction project, contact Poa Adit Nigeria today!",
         ],
         

@@ -273,8 +273,6 @@ export const blogdata = [
         <br/>,
         <br/>,
         "1. Define Your Project Scope and Objectives",
-        <br/>,
-        <br/>,
         "Clearly outline your project's purpose, size, and expected outcomes. Establishing a well-defined scope helps set realistic expectations, avoid unnecessary delays, and ensure all stakeholders are aligned from the beginning.",
         <br/>,
         <br/>,
@@ -336,8 +334,7 @@ export const blogdata = [
         <br/>,
         <br/>,
         "Successful construction projects in 2025 will require strategic planning, compliance with regulations, and a focus on quality and safety. By considering these key factors, Poa Adit Nigeria Limited ensures every project is executed efficiently, delivering value to clients and stakeholders.",
-        <br/>,
-        <br/>,
+        <br/>
         "For expert guidance on your next construction project, contact Poa Adit Nigeria today!",
         ],
         

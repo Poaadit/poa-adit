@@ -44,13 +44,13 @@ const Hometest = () => {
     },
     {
       img: `${Instagram}`,
-      link: "https://www.instagram.com/poaaditlimited/",
+      link: "https://www.instagram.com/poaadit",
       alt: "inst",
       width: "20px",
     },
     {
       img: `${Facebook}`,
-      link: "https://www.facebook.com/profile.php?id=100083142101737",
+      link: "https://web.facebook.com/profile.php?id=100083142101737",
       alt: "Faceb",
       width: "20px",
       height: "20px",

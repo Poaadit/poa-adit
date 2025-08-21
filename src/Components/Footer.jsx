@@ -21,7 +21,7 @@ const Footer = () => {
       img: `${Instagram}`,
       alt: "inst",
       width: "17px",
-      link:"https://www.instagram.com/poaaditlimited/"
+      link:"https://www.instagram.com/poaadit"
     },
     {
       img: `${Facebook}`,

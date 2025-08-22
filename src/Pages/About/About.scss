@@ -343,6 +343,36 @@ $darkerorange: #c20b09ff;
   }
 }
 
+//section 4
+.abtsect4cont {
+  background-color: $darkerorange;
+
+  #trusted_banner_cont {
+    padding: 60px 5% 20px 5%;
+    .trusted_banner {
+      display: flex;
+      // outline: 1px solid rgb(27, 158, 38);
+      align-items: center;
+      justify-content: center;
+
+      h1 {
+        display: flex;
+        font-family: "Poppins";
+        margin: 0px;
+        font-size: 45px;
+        font-weight: bold;
+        line-height: 40px;
+        width: 600px;
+      }
+    h4 {
+      margin: 20px 0px;
+      font-family: "Avenir";
+      width: 700px;
+    }
+    }
+  }
+}
+
 @media only screen and (min-width: 1001px) {
   .abtsect1cont {
     padding-top: 200px;

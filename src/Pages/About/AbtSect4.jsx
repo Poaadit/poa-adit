@@ -8,7 +8,7 @@ const AbtSect4 = () => {
       <ColumnContainer id="trusted_banner_cont">
         <div className="trusted_banner">
           <h1>
-            ISO 45001:2018: OCCUPATIONAL HEALTH AND SAFETY MANAGEMENT SYSTEM
+            1. OCCUPATIONAL HEALTH AND SAFETY MANAGEMENT SYSTEM
           </h1>
         </div>
         <p>
@@ -17,7 +17,7 @@ const AbtSect4 = () => {
         </p>
         <div className="trusted_banner">
           <h1>
-           ISO 9001:2015: QUALITY MANAGEMENT SYSTEM
+           2. QUALITY MANAGEMENT SYSTEM
           </h1>
         </div>
         <p>

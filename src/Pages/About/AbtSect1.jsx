@@ -64,12 +64,6 @@ const AbtSect1 = () => {
               with commitment to the built environment.
             </p>
           </div>
-          <div>
-            <h1>Quality & Occupational Health and Safety Policy</h1>
-            <h2>
-Poa Adit is committed to delivering products and services that consistently meet customer requirements while ensuring the health, safety, and well-being of all employees, contractors, and stakeholders. In alignment with ISO 9001:2015 and ISO 45001:2018, we strive to achieve customer satisfaction, compliance with statutory and regulatory obligations, and the continual improvement of our management system. We maintain safe and healthy working conditions, identify and control workplace risks, and actively involve our employees in creating a culture of safety and quality. Through training, engagement, and innovation, we continually improve our processes and performance to enhance efficiency, protect our workforce, and strengthen customer trust.
-            </h2>
-          </div>
         </ColumnContainer>
       </div>
       <div className="values_main_cont">

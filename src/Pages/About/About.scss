@@ -1,5 +1,6 @@
 $orange: #c20b09ff;
 $darkerorange: #c20b09ff;
+$white: #ffffffff;
 
 .abtsect2cont,
 .abtsect1cont,
@@ -363,7 +364,6 @@ $darkerorange: #c20b09ff;
         font-size: 25px;
         font-weight: bold;
         line-height: 40px;
-        width: 700px;
         color: #fff;
         
       }
@@ -372,7 +372,7 @@ $darkerorange: #c20b09ff;
       font-family: "Avenir";
       font-size: 15px;
       width: 700px;
-      color: #fff;
+      color: $white;
     }
     }
   }

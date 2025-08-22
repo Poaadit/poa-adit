@@ -4,6 +4,7 @@ import "./About.scss"
 import AbtSect1 from "./AbtSect1";
 import AbtSect2 from "./AbtSect2";
 import AbtSect3 from "./AbtSect3";
+import AbtSect4 from "./AbtSect4";
 
 
 const About = () => {
@@ -11,6 +12,7 @@ const About = () => {
     <div className="homecont">
       <AppLayoutLayer>
         <AbtSect1/>
+        <AbtSect4/>
         <AbtSect2/>
         <AbtSect3/>
       </AppLayoutLayer>

@@ -23,7 +23,7 @@ const AbtSect4 = () => {
            2. QUALITY MANAGEMENT SYSTEM
           </h1>
           </div>
-        <div
+        <div>
           <p>
             At POAADIT, we are committed to leveraging our capabilities in the built environment, consistently meeting client and regulatory requirements, while promoting a healthy and safe environment.
             We strive for continuous improvement in every aspect of our operations, from project planning and design to construction and handover.

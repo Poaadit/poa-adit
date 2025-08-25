@@ -11,7 +11,7 @@ const AbtSect4 = () => {
             1. OCCUPATIONAL HEALTH AND SAFETY MANAGEMENT SYSTEM
           </h1>
           </div>
-          <div>
+          <div className="trusted_banner">
           <p>
             At POAADIT, we are committed to ensuring the health, safety, and welfare of our workers, subcontractors, clients, and visitors.
             In compliance with ISO 45001:2018, relevant regulatory requirements, and industry best practices, we are dedicated to providing a safe and healthy working environment throughout all of our construction sites, workshops, and offices.
@@ -23,7 +23,7 @@ const AbtSect4 = () => {
            2. QUALITY MANAGEMENT SYSTEM
           </h1>
           </div>
-        <div>
+        <div className="trusted_banner">
           <p>
             At POAADIT, we are committed to leveraging our capabilities in the built environment, consistently meeting client and regulatory requirements, while promoting a healthy and safe environment.
             We strive for continuous improvement in every aspect of our operations, from project planning and design to construction and handover.

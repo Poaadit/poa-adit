@@ -38,13 +38,6 @@ const AbtSect1 = () => {
               </p>
               <h3>Adeyemi Adiatu</h3>
             </div>
-          <div className="image_cont">
-             <LazyLoadImage
-                //src={Aboutpic}
-               // alt="team pic"
-               // effect="blur"
-              />
-            </div>
           </div>
         </ColumnContainer>
       </div>

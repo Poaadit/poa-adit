@@ -8,7 +8,7 @@ const AbtSect4 = () => {
       <ColumnContainer id="trusted_banner_cont">
         <div className="trusted_banner">
           <h1>
-            1. OCCUPATIONAL HEALTH AND SAFETY MANAGEMENT SYSTEM
+            OCCUPATIONAL HEALTH AND SAFETY MANAGEMENT SYSTEM
           </h1>
           </div>
           <div className="trusted_banner">
@@ -20,7 +20,7 @@ const AbtSect4 = () => {
 
         <div className="trusted_banner">
           <h1>
-           2. QUALITY MANAGEMENT SYSTEM
+           QUALITY MANAGEMENT SYSTEM
           </h1>
           </div>
         <div className="trusted_banner">

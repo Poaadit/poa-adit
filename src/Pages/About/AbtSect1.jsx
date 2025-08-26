@@ -1,6 +1,6 @@
 import React from "react";
 import { ColumnContainer,CoreValueCard } from "../../Components/ResponsiveConts";
-import Aboutpic from "../../Assets/images/Aboutt.jpg";
+//import Aboutpic from "../../Assets/images/Aboutt.jpg";
 import { LazyLoadImage } from "react-lazy-load-image-component";
 //icons
 import PrecisionIcon from "../../Assets/icons/Precision.png";
@@ -38,13 +38,13 @@ const AbtSect1 = () => {
               </p>
               <h3>Adeyemi Adiatu</h3>
             </div>
-            <div className="image_cont">
+          /* <div className="image_cont">
               <LazyLoadImage
                 src={Aboutpic}
                 alt="team pic"
                 effect="blur"
               />
-            </div>
+            </div> */
           </div>
         </ColumnContainer>
       </div>

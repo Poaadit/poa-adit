@@ -1,7 +1,7 @@
 import React from "react";
 import { ColumnContainer,CoreValueCard } from "../../Components/ResponsiveConts";
 //import Aboutpic from "../../Assets/images/Aboutt.jpg";
-import { LazyLoadImage } from "react-lazy-load-image-component";
+//import { LazyLoadImage } from "react-lazy-load-image-component";
 //icons
 import PrecisionIcon from "../../Assets/icons/Precision.png";
 import EfficiencyIcon from "../../Assets/icons/efficiency.png";

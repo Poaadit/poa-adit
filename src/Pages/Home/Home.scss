@@ -621,9 +621,8 @@ $darkerorange: #c20b09ff;
         gap: 25px;
 
         .partner-logo {
-          height: 70px;
+          height: 210px;
           width: auto;
-          filter: brightness(0) invert(1); // optional: makes logos white on dark bg
           transition: transform 0.3s ease;
 
           &:hover {

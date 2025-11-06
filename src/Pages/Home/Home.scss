@@ -538,82 +538,55 @@ $darkerorange: #c20b09ff;
 }
 
 //Home Section 7
-.homesect7 {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  width: 100%;
+.homesect7cont {
+  background: linear-gradient(
+      180deg,
+      #000000b9 -15.39%,
+      rgba(0, 0, 0, 0.507) 200.56%
+    ),
+    url("../../Assets/images/workerbkg.png") 0% 0% no-repeat padding-box;
 
-  .content-logo-row {
+  background-position: center;
+  background-size: cover;
+  #sect7cont {
+    padding: 50px 6%;
+  }
+  .homesect7 {
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
     align-items: center;
-    width: 100%;
-    gap: 40px; // adds space between text and logos
-
-    // make sure it doesn’t wrap unless on small screens
-    flex-wrap: nowrap;
-
-    @media (max-width: 900px) {
-      flex-direction: column;
-      text-align: center;
-    }
-
-    .text-area {
-      flex: 1; // take up available space
-      max-width: 60%;
+    > div {
       h1 {
-        margin: 0;
+        margin: 0px;
         line-height: 40px;
         font-family: "Poppins-Black";
         font-weight: bold;
         font-size: 40px;
-        color: #fff;
       }
-
       #trust_red {
         color: $orange;
       }
-
+      h1,
+      h4 {
+        text-align: center;
+        color: #fff;
+      }
       h4 {
         font-family: "Poppins-Light";
         margin-top: 10px;
-        color: #fff;
-      }
-
-      #contcbtn {
-        background-color: $orange;
-        color: #fff;
-        font-family: "Avenir";
-        margin-top: 30px;
-
-        &:hover {
-          background: #000;
-        }
       }
     }
-
-    .logo-section {
-      flex: 0 0 auto; // keep logos side-by-side, don’t shrink
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      gap: 25px;
-
-      .partner-logo {
-        height: 70px;
-        width: auto;
-        filter: brightness(0) invert(1); // optional for white logos
-        transition: transform 0.3s ease;
-
-        &:hover {
-          transform: scale(1.05);
-        }
+    #contcbtn {
+      background-color: $orange;
+      color: #fff;
+      font-family: "Avenir";
+      margin-top: 40px;
+      &:hover {
+        background: #000;
       }
     }
   }
 }
-
 @media only screen and (min-width: 465px) {
   .homemain {
     height: 100vh;

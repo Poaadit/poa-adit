@@ -3,6 +3,9 @@ import { Link } from "react-router-dom";
 import { Button1, ColumnContainer } from "../../Components/ResponsiveConts";
 import "./Home.scss";
 
+import Cert1 from "../../Assets/images/ISO9001.jpeg.jpg"
+import Cert2 from "../../Assets/images/45001 2018-01.jpg"
+
 const HomeSect7 = () => {
   return (
     <div className="homesect7cont">
@@ -22,12 +25,12 @@ const HomeSect7 = () => {
             {/* Logos container */}
             <div className="logo-section">
               <img
-                src="../../Assets/images/ISO9001.jpeg.jpg" 
+                src=${Cert1}
                 alt="Logo 1"
                 className="partner-logo"
               />
               <img
-                src="../../Assets/images/45001 2018-01.jpg"
+                src=${Cert2}
                 alt="Logo 2"
                 className="partner-logo"
               />

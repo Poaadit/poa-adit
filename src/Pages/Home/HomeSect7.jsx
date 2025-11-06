@@ -25,12 +25,12 @@ const HomeSect7 = () => {
             {/* Logos container */}
             <div className="logo-section">
               <img
-                src=${Cert1}
+                src={Cert1}
                 alt="Logo 1"
                 className="partner-logo"
               />
               <img
-                src=${Cert2}
+                src={Cert2}
                 alt="Logo 2"
                 className="partner-logo"
               />

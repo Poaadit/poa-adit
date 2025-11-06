@@ -3,8 +3,8 @@ import { Link } from "react-router-dom";
 import { Button1, ColumnContainer } from "../../Components/ResponsiveConts";
 import "./Home.scss";
 
-import Cert1 from "../../Assets/images/ISO9001.jpeg.jpg"
-import Cert2 from "../../Assets/images/45001 2018-01.jpg"
+import Cert1 from "../../Assets/images/cert1.png"
+import Cert2 from "../../Assets/images/cert2.png"
 
 const HomeSect7 = () => {
   return (

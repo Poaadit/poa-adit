@@ -586,6 +586,23 @@ $darkerorange: #c20b09ff;
       }
     }
   }
+      .logo-section {
+      display: flex;
+      align-items: center;
+      gap: 25px;
+
+      .partner-logo {
+        height: 70px;
+        width: auto;
+        filter: brightness(0) invert(1); // optional white effect for dark bg
+        transition: transform 0.3s ease;
+
+        &:hover {
+          transform: scale(1.05);
+        }
+      }
+    }
+  }
 }
 
 @media only screen and (min-width: 465px) {
